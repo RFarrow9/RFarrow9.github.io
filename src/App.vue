@@ -2,7 +2,7 @@
   <metainfo></metainfo>
   <div class="sheet" style="display: flex; flex-direction: column">
     <section class="row">
-      <aside><h1>Benjamin Pilgrim</h1></aside>
+      <aside><h1>Robert Farrow</h1></aside>
       <links />
     </section>
     <section>
@@ -13,54 +13,56 @@
         <aside>2019 - Present</aside>
         <main>
           <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Software Engineer
+            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer
           </header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 5px">
-              Technical owner, designer and lead developer of a distributed
-              event-driven customer journey automation platform.
+            <li style="margin-bottom: 10px">
+              Technical owner, architect, lead developer and product owner of a distributed
+              cloud native delta lake platform for analytics, visualisations and machine
+              learning called Autopilot.
             </li>
-            <li style="margin-bottom: 5px">
-              Development of services, user interfaces and APIs following a
-              3-tier application model for a complex multi-tenant customer data
-              platform.
+            <li style="margin-bottom: 10px">
+              Development of Dev-Ops processes for supporting the development lifecycle, implementation
+              of IAC tooling, and integration of code with CI/CD/CT pipelines. Distribution of these lessons
+              and technologies to the wider team for adoption across the company.
             </li>
-            <li style="margin-bottom: 5px">
-              Involved in mentoring and skill development for junior developers
-              with a focus on code quality through pair programming and code
-              reviews.
+            <li style="margin-bottom: 10px">
+              Initial design and implementation of testing library for Autopilot using Pytests. A focus
+              on automated testing, fully documented to reduce bus factors, and pre-planning sprints to
+              support upskilling QA and full automation of the code delivery pipeline.
             </li>
-            <li style="margin-bottom: 5px">
-              Assisted the operations and quality assurance teams with
-              investigating, mitigating and fixing production incidents and bugs
-              reported by customers.
+            <li style="margin-bottom: 10px">
+              Management of developers & testers, sprint planning, proof of concept development and analyses of
+              technologies in order to achieve best fit for the companies needs.
             </li>
-            <li style="margin-bottom: 5px">
-              Designing and developing frontend user interface pages and
-              components, including a complex promotion builder with a
-              'drag-n-drop' nested rule/segment editor for use by customers.
+            <li style="margin-bottom: 10px">
+              Evangelist for best practices and adoption of new technologies to shorten development cycles, increase
+              reliability and minimise technical debt.
+            </li>
+            <li style="margin-bottom: 15px">
+              Consideration of the 'edges around the code', making sure to use & deploy best practices for deployment,
+              monitoring, security, networking & budgetary awareness, alongside consistent and up to date documentation.
             </li>
           </ul>
           <ul class="tech-list squares">
-            <li style="--color: #e535ab">GraphQL</li>
-            <li style="--color: #b07219">Java</li>
-            <li style="--color: #f1e05a">JavaScript</li>
-            <li style="--color: #80ea6e">Spring</li>
-            <li style="--color: #34495e">Vue.js</li>
-          </ul>
-          <ul class="tech-list">
-            <li style="--color: #ff9900">AWS</li>
-            <li style="--color: #d24939">Jenkins</li>
-            <li style="--color: #f98200">JSF</li>
-            <li style="--color: #25a162">JUnit</li>
-            <li style="--color: #363d3f">Kafka</li>
-            <li style="--color: #ff6804">Maven</li>
-            <li style="--color: #13aa52">MongoDB</li>
-            <li style="--color: #328fbf">Storm</li>
-            <li style="--color: #93b0da">SVN</li>
-            <li style="--color: #0067b8">T-SQL</li>
-            <li style="--color: #844fba">Terraform</li>
-            <li style="--color: #cea328">Tomcat</li>
+            <li style="--color: #80ea6e">AWS</li>
+            <li style="--color: #f1e05a">Terraform</li>
+            <li style="--color: #e535ab">Python</li>
+            <li style="--color: #b07219">Spark</li>
+            <li style="--color: #844fba">ML</li>
+            <li style="--color: #34495e">Docker</li>
+            <li style="--color: #ff9900">Golang</li>
+            <li style="--color: #d24939">T-SQL</li>
+            <li style="--color: #f98200">Pandas</li>
+            <li style="--color: #25a162">Hadoop</li>
+            <li style="--color: #363d3f">Athena</li>
+            <li style="--color: #ff6804">Git</li>
+            <li style="--color: #13aa52">SVN</li>
+            <li style="--color: #328fbf">Glue</li>
+            <li style="--color: #93b0da">Jenkins</li>
+            <li style="--color: #0067b8">CICDCT</li>
+            <li style="--color: #cea328">EMR</li>
+            <li style="--color: #328fbf">ECS</li>
           </ul>
         </main>
       </div>
@@ -68,110 +70,62 @@
         <aside>2018 - 2019</aside>
         <main>
           <header>
-            <b
-              ><a href="https://www.liverpoolguild.org/"
-                >Liverpool Guild of Students</a
-              ></b
-            >
-            - Student Staff Theatre Technician
-          </header>
-          <p>
-            Lighting and Sound Operator at Liverpool Guild of Students, working
-            with student societies and other organisations on musicals and
-            events.
-          </p>
+            <b><a href="https://www.marsh.com/uk/home.html">Marsh</a></b> - Data Developer</header>
+        </main>
+      </div>
+      <div class="row">
+        <aside>2016 - 2018</aside>
+        <main>
+          <header>
+            <b><a href="https://www.nsft.nhs.uk/">NHS Norfolk & Suffolk Foundation Trust</a></b> - Business Intelligence Programmer</header>
         </main>
       </div>
     </section>
     <section>
       <div class="row">
-        <aside><h2>Personal Projects</h2></aside>
+        <aside><h2>Other Projects</h2></aside>
       </div>
       <div class="row">
-        <aside>
-          <a
-            href="https://github.com/TGNThump/ActivityStreams4J"
-            target="_blank"
-            >ActivityStreams4J</a
-          >
-        </aside>
+        <aside>Terraform Looker Provider</aside>
         <main>
           <p>
-            A personal open source project creating a Java library consisting of
-            data transfer objects for the W3C ActivityStreams 2.0 specification,
-            along with the ActivityPub extension.
+            Developed a custom terraform provider for Looker by teaching myself Golang in order to automate
+            consistent deployment of various Looker resources.
           </p>
           <ul class="tech-list">
-            <li style="--color: #f14e32">Git</li>
-            <li style="--color: #b07219">Java</li>
-            <li style="--color: #25a162">JUnit</li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
-        <aside>scribbled.by</aside>
-        <main>
-          <p>
-            A collaborative note-taking web application designed and developed
-            as part of my degree dissertation project.
-          </p>
-          <ul class="tech-list">
-            <li style="--color: #f14e32">Git</li>
-            <li style="--color: #e535ab">GraphQL</li>
-            <li style="--color: #026e00">Node.js</li>
-            <li style="--color: #34495e">Vue.js</li>
+            <li style="--color: #ff9900">Golang</li>
+            <li style="--color: #f1e05a">Terraform</li>
+            <li style="--color: #ff6804">Git</li>
           </ul>
         </main>
       </div>
       <div class="row">
         <aside>
-          <a href="https://hub.pilgrim.me.uk/" target="_blank"
-            >hub.pilgrim.me.uk</a
-          >
+          Solar Prophet
         </aside>
         <main>
           <p>
-            Personal home-lab started in 2016 with 20+ services, deployed as
-            docker containers. Services are listed on an open-sourced start-page
-            that dynamically discovers ports exposed through a Traefik reverse
-            proxy via the docker API.
+            Personal home-lab started hosting docker based services. Built to serve media, store backups on network storage
+            and to host services for wifi mesh and dynamic ad removal.
           </p>
-          <ul class="tech-list">
-            <li style="--color: #0db7ed">Docker</li>
-            <li style="--color: #f14e32">Git</li>
-            <li style="--color: #d24939">Jenkins</li>
-            <li style="--color: #110325">Traefik</li>
+          <ul class="tech-list" style="grid-template-columns: 89px 1fr ;margin: 0 0px">
+            <li style="--color: #34495e">Docker</li>
+            <li style="--color: #d24939">Networking</li>
           </ul>
         </main>
       </div>
       <div class="row">
-        <aside>EV3 SDK</aside>
+        <aside>Patient Journey</aside>
         <main>
           <p>
-            Developed a java library for the EV3 Mindstorm Robots that
-            facilitates the study of mobile computing problems, such as odometry
-            tracking, sensor data modelling and multi-agent systems.
+            A data exploration tool built in Excel using VBA and integration with SQL Server. Built to address the needs
+            of practitioners at the trust, and to grant immediate access to the most up to date data in an easy to consume
+            format.
+            Built in visualisations for an at a glance 'health check' at any level to and to inform on immediate concerns.
           </p>
           <ul class="tech-list">
-            <li style="--color: #f14e32">Git</li>
-            <li style="--color: #b07219">Java</li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
-        <aside>OneReset</aside>
-        <main>
-          <p>
-            A self-service password reset kiosk system, developed for the One
-            sixth form college. The kiosk application allowed students to reset
-            their active directory password without needing to contact the
-            service desk for human assistance after scanning their NFC-enabled
-            id card and verifying their identity.
-          </p>
-          <ul class="tech-list">
-            <li style="--color: #178600">C#</li>
-            <li style="--color: #f14e32">Git</li>
-            <li style="--color: #4f5d95">PHP</li>
+            <li style="--color: #af6304">VB</li>
+            <li style="--color: #d24939">T-SQL</li>
           </ul>
         </main>
       </div>
@@ -181,50 +135,45 @@
         <aside><h2>Education</h2></aside>
       </div>
       <div class="row">
-        <aside>2016 - 2019</aside>
+        <aside>2012 - 2015</aside>
         <main>
           <header>
-            <b
-              ><a href="https://www.liverpool.ac.uk/"
-                >University of Liverpool</a
-              ></b
-            >
-            - BSc (Hons) Computer Science (First Class)
+            <b><a href="https://www.ucl.ac.uk/">University College London</a></b> - BSc Chemistry
           </header>
         </main>
       </div>
       <div class="row">
-        <aside>2014 - 2016</aside>
+        <aside>2010 - 2012</aside>
         <main>
           <header>
-            <b><a href="https://www.suffolkone.ac.uk/">One Sixth Form</a></b> -
-            A Levels: Computing (B), Electronics (A), Mathematics (D)
+            <b><a href="https://www.hsdc.ac.uk/study-with-us/alton-campus/">Alton College</a></b>
+             - A Levels: Maths (A), Chemistry (A), Biology (A*)
           </header>
         </main>
       </div>
     </section>
     <section>
       <div class="row">
-        <aside><h2>Volunteering</h2></aside>
+        <aside><h2>Other</h2></aside>
       </div>
       <div class="row">
-        <aside>2018 - 2019</aside>
+        <aside></aside>
         <main>
           <header>
-            <b>Society Co-President</b> at Liverpool Guild of Students
-            (University of Liverpool)
+            Recently finished building an eco house at Graven Hill. Aimed to build a house as fully self sufficient
+            as possible, very glad to be done! I now know far too much about building control processes.
           </header>
         </main>
       </div>
       <div class="row">
-        <aside>2017 - 2018</aside>
+        <aside></aside>
         <main>
           <header>
-            <b>Society Social Secretary</b> at Liverpool Guild of Students
-            (University of Liverpool)
+            Amateur cyclist, <b>hoping</b> to complete the 'North Coast 500' next year.
           </header>
         </main>
       </div>
+
     </section>
   </div>
 </template>
@@ -237,7 +186,7 @@ export default {
   components: { Links },
   setup() {
     useMeta({
-      title: "Benjamin Pilgrim - Curriculum Vitae",
+      title: "Robert Farrow - Curriculum Vitae",
       bodyAttrs: {
         class: "A4",
       },
@@ -250,7 +199,7 @@ export default {
 </script>
 
 <style lang="scss">
-$primary: #3a446e;
+$primary: #d63af2;
 
 @import "~normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -317,7 +266,7 @@ main {
 }
 
 aside {
-  background: #3a446e;
+  background: #530080;
   color: #ffffff;
   text-align: right;
   padding-right: 1em;

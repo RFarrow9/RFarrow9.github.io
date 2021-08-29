@@ -1,17 +1,15 @@
 <template>
   <main class="links">
-    <a href="mailto:ben@pilgrim.me.uk" target="_blank">ben@pilgrim.me.uk</a>
-    <icon name="envelope" />
-    <a href="https://goo.gl/maps/1xKU77pvmEt91xkp6" target="_blank"
-      >Ipswich, Suffolk</a
-    >
-    <icon name="map-marked-alt" />
-    <a href="tel:07950365848" target="_blank">07950 365848</a>
-    <icon name="mobile-alt" />
-    <a href="https://github.com/tgnthump?tab=repositories" target="_blank"
-      >TGNThump</a
-    >
-    <icon brand name="github" />
+    <a href="mailto:rob.farrow@hotmail.com" target="_blank">rob.farrow@hotmail.com</a>
+    <icon name="envelope"/>
+    <a href="https://goo.gl/maps/jpvoQb3vADQ5AK8B6" target="_blank">Bicester, Oxfordshire</a>
+    <icon name="map-marked-alt"/>
+    <a href="tel:07938128115" target="_blank">07938 128115</a>
+    <icon name="mobile-alt"/>
+    <a href="https://github.com/RFarrow9?tab=repositories" target="_blank">RFarrow9</a>
+    <icon brand name="github"/>
+    <a href="https://www.linkedin.com/in/robertfarrow1/" target="_blank">Robert Farrow</a>
+    <icon brand name="linkedin"/>
   </main>
 </template>
 
