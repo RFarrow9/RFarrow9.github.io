@@ -1,6 +1,6 @@
 <template>
   <main class="links">
-    <a href="mailto:rob.farrow@hotmail.com" target="_blank">rob.farrow@hotmail.com</a>
+    <a href="mailto:rob.farrow+cv@hotmail.com" target="_blank">rob.farrow+cv@hotmail.com</a>
     <icon name="envelope"/>
     <a href="https://goo.gl/maps/jpvoQb3vADQ5AK8B6" target="_blank">Bicester, Oxfordshire</a>
     <icon name="map-marked-alt"/>
@@ -8,8 +8,10 @@
     <icon name="mobile-alt"/>
     <a href="https://github.com/RFarrow9?tab=repositories" target="_blank">RFarrow9</a>
     <icon brand name="github"/>
-    <a href="https://www.linkedin.com/in/robertfarrow1/" target="_blank">Robert Farrow</a>
+    <a href="https://www.linkedin.com/in/robertfarrow1/" target="_blank">LinkedIn</a>
     <icon brand name="linkedin"/>
+    <a href="https://medium.com/@rob-f" target="_blank">Medium</a>
+    <icon brand name="medium"/>
   </main>
 </template>
 

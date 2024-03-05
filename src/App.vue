@@ -13,57 +13,43 @@
         <aside>2019 - Present</aside>
         <main>
           <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer
+            <b><a href="https://www.htk.co.uk/">Profusion</a></b> - Head of Engineering
           </header>
           <ul style="margin: 0 15px">
             <li style="margin-bottom: 10px">
-              Technical owner, architect, lead developer and product owner of a distributed
-              cloud native delta lake platform for analytics, visualisations and machine
-              learning called Autopilot.
+                Line management of the engineering team at Profusion, helping people grow & learn, building culture & interfacing the engineering into the entire company.
             </li>
             <li style="margin-bottom: 10px">
-              Development of Dev-Ops processes for supporting the development lifecycle, implementation
-              of IAC tooling, and integration of code with CI/CD/CT pipelines. Distribution of these lessons
-              and technologies to the wider team for adoption across the company.
+                Responsible for successful delivery of data projects across a number of clients, from datalakes, to bespoke machine learning products, to web applications.
             </li>
             <li style="margin-bottom: 10px">
-              Initial design and implementation of testing library for Autopilot using Pytests. A focus
-              on automated testing, fully documented to reduce bus factors, and pre-planning sprints to
-              support upskilling QA and full automation of the code delivery pipeline.
+                Engineering Process adoption and building, software development plans, pull requests, branching strategy, unit testing & poker planning.
             </li>
             <li style="margin-bottom: 10px">
-              Management of developers & testers, sprint planning, proof of concept development and analyses of
-              technologies in order to achieve best fit for the companies needs.
+              Architecture across AWS, GCP & Azure based on customer requirements. Phased delivery plan building, jira epic and ticket design.
             </li>
             <li style="margin-bottom: 10px">
-              Evangelist for best practices and adoption of new technologies to shorten development cycles, increase
-              reliability and minimise technical debt.
+              Articles & blogging for communicating technical issues, internal sessions and talks to upskill the entire company in the latest and greatest. Hosting of our data for leaders program. Pitching technical solutions for new sales.
             </li>
             <li style="margin-bottom: 15px">
-              Consideration of the 'edges around the code', making sure to use & deploy best practices for deployment,
-              monitoring, security, networking & budgetary awareness, alongside consistent and up to date documentation.
+              Ensuring documentation is in place for all internal & external projects, networking across multiple cloud estates, budgetary alignment and management of projects and departmentally, maximising utilisation and resource management.
             </li>
           </ul>
           <ul class="tech-list squares">
             <li style="--color: #80ea6e">AWS</li>
             <li style="--color: #f1e05a">Terraform</li>
             <li style="--color: #e535ab">Python</li>
-            <li style="--color: #b07219">Spark</li>
-            <li style="--color: #844fba">ML</li>
-            <li style="--color: #34495e">Docker</li>
-            <li style="--color: #ff9900">Golang</li>
-            <li style="--color: #d24939">T-SQL</li>
-            <li style="--color: #f98200">Pandas</li>
-            <li style="--color: #25a162">Hadoop</li>
-            <li style="--color: #363d3f">Athena</li>
+            <li style="--color: #b07219">Serverless</li>
             <li style="--color: #ff6804">Git</li>
-            <li style="--color: #13aa52">SVN</li>
-            <li style="--color: #328fbf">Glue</li>
-            <li style="--color: #93b0da">Jenkins</li>
-            <li style="--color: #0067b8">CICDCT</li>
-            <li style="--color: #cea328">EMR</li>
-            <li style="--color: #328fbf">ECS</li>
+            <li style="--color: #13aa52">Typescript</li>
           </ul>
+        </main>
+      </div>
+      <div class="row">
+        <aside>2019 - 2022</aside>
+        <main>
+          <header>
+            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer</header>
         </main>
       </div>
       <div class="row">
@@ -83,7 +69,7 @@
     </section>
     <section>
       <div class="row">
-        <aside><h2>Other Projects</h2></aside>
+        <aside><h2>Projects</h2></aside>
       </div>
       <div class="row">
         <aside>Terraform Looker Provider</aside>
@@ -119,7 +105,7 @@
         <main>
           <p>
             A data exploration tool built in Excel using VBA and integration with SQL Server. Built to address the needs
-            of practitioners at the trust, and to grant immediate access to the most up to date data in an easy to consume
+            of practitioners at NHS trusts, and to grant immediate access to the most up to date data in an easy to consume
             format.
             Built in visualisations for an at a glance 'health check' at any level to and to inform on immediate concerns.
           </p>
