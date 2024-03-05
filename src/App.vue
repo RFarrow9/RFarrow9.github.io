@@ -166,7 +166,7 @@
 
 <script>
 import { useMeta } from "vue-meta";
-import Links from "./components/Links";
+import Links from "./components/Links.vue";
 
 export default {
   components: { Links },
@@ -187,9 +187,9 @@ export default {
 <style lang="scss">
 $primary: #d63af2;
 
-@import "~normalize.css";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import "~paper-css/paper.css";
+@import 'normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import 'paper-css/paper.css';
 
 *,
 *::after,
