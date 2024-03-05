@@ -13,7 +13,7 @@
         <aside>2019 - Present</aside>
         <main>
           <header>
-            <b><a href="https://www.htk.co.uk/">Profusion</a></b> - Head of Engineering
+            <b><a href="https://profusion.com/">Profusion</a></b> - Head of Engineering
           </header>
           <ul style="margin: 0 15px">
             <li style="margin-bottom: 10px">
