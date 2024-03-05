@@ -2,7 +2,7 @@
   <metainfo></metainfo>
   <div class="sheet" style="display: flex; flex-direction: column">
     <section class="row">
-      <aside><h1>Benjamin Pilgrim</h1></aside>
+      <aside><h1>Robert Farrow</h1></aside>
       <links />
     </section>
     <section>
@@ -13,59 +13,40 @@
         <aside>2019 - Present</aside>
         <main>
           <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Software Engineer
+            <b><a href="https://profusion.com/">Profusion</a></b> - Head of Engineering
           </header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 5px">
-              Technical owner, designer and lead developer of a distributed
-              event-driven customer journey automation platform.
+            <li style="margin-bottom: 10px">
+                Line management of the engineering team at Profusion, helping people grow & learn, building culture & interfacing the engineering into the entire company.
             </li>
-            <li style="margin-bottom: 5px">
-              Development of services, user interfaces and APIs following a
-              3-tier application model for a complex multi-tenant customer data
-              platform.
+            <li style="margin-bottom: 10px">
+                Responsible for successful delivery of data projects across a number of clients, from datalakes, to bespoke machine learning products, to web applications.
             </li>
-            <li style="margin-bottom: 5px">
-              Involved in mentoring and skill development for junior developers
-              with a focus on code quality through pair programming and code
-              reviews.
+            <li style="margin-bottom: 10px">
+                Engineering Process adoption and building, software development plans, pull requests, branching strategy, unit testing & poker planning.
             </li>
-            <li style="margin-bottom: 5px">
-              Assisted the operations and quality assurance teams with
-              investigating, mitigating and fixing production incidents and bugs
-              reported by customers.
+            <li style="margin-bottom: 10px">
+              Architecture across AWS, GCP & Azure based on customer requirements. Phased delivery plan building, jira epic and ticket design.
             </li>
-            <li style="margin-bottom: 5px">
-              Designing and developing frontend user interface pages and
-              components, including a complex promotion builder with a
-              'drag-n-drop' nested rule/segment editor for use by customers.
+            <li style="margin-bottom: 10px">
+              Articles & blogging for communicating technical issues, internal sessions and talks to upskill the entire company in the latest and greatest. Hosting of our data for leaders program. Pitching technical solutions for new sales.
+            </li>
+            <li style="margin-bottom: 15px">
+              Ensuring documentation is in place for all internal & external projects, networking across multiple cloud estates, budgetary alignment and management of projects and departmentally, maximising utilisation and resource management.
             </li>
           </ul>
           <ul class="tech-list squares">
-            <li style="--color: #e535ab">GraphQL</li>
-            <li style="--color: #b07219">Java</li>
-            <li style="--color: #f1e05a">JavaScript</li>
-            <li style="--color: #80ea6e">Spring</li>
-            <li style="--color: #34495e">Vue.js</li>
-          </ul>
-          <ul class="tech-list">
-            <li style="--color: #ff9900">AWS</li>
-            <li style="--color: #d24939">Jenkins</li>
-            <li style="--color: #f98200">JSF</li>
-            <li style="--color: #25a162">JUnit</li>
-            <li style="--color: #363d3f">Kafka</li>
-            <li style="--color: #ff6804">Maven</li>
-            <li style="--color: #13aa52">MongoDB</li>
-            <li style="--color: #328fbf">Storm</li>
-            <li style="--color: #93b0da">SVN</li>
-            <li style="--color: #0067b8">T-SQL</li>
-            <li style="--color: #844fba">Terraform</li>
-            <li style="--color: #cea328">Tomcat</li>
+            <li style="--color: #80ea6e">AWS</li>
+            <li style="--color: #f1e05a">Terraform</li>
+            <li style="--color: #e535ab">Python</li>
+            <li style="--color: #b07219">Serverless</li>
+            <li style="--color: #ff6804">Git</li>
+            <li style="--color: #13aa52">Typescript</li>
           </ul>
         </main>
       </div>
       <div class="row">
-        <aside>2018 - 2019</aside>
+        <aside>2019 - 2022</aside>
         <main>
           <header>
             <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer</header>
@@ -140,50 +121,45 @@
         <aside><h2>Education</h2></aside>
       </div>
       <div class="row">
-        <aside>2016 - 2019</aside>
+        <aside>2012 - 2015</aside>
         <main>
           <header>
-            <b
-              ><a href="https://www.liverpool.ac.uk/"
-                >University of Liverpool</a
-              ></b
-            >
-            - BSc (Hons) Computer Science (First Class)
+            <b><a href="https://www.ucl.ac.uk/">University College London</a></b> - BSc Chemistry
           </header>
         </main>
       </div>
       <div class="row">
-        <aside>2014 - 2016</aside>
+        <aside>2010 - 2012</aside>
         <main>
           <header>
-            <b><a href="https://www.suffolkone.ac.uk/">One Sixth Form</a></b> -
-            A Levels: Computing (B), Electronics (A), Mathematics (D)
+            <b><a href="https://www.hsdc.ac.uk/study-with-us/alton-campus/">Alton College</a></b>
+             - A Levels: Maths (A), Chemistry (A), Biology (A*)
           </header>
         </main>
       </div>
     </section>
     <section>
       <div class="row">
-        <aside><h2>Volunteering</h2></aside>
+        <aside><h2>Other</h2></aside>
       </div>
       <div class="row">
-        <aside>2018 - 2019</aside>
+        <aside></aside>
         <main>
           <header>
-            <b>Society Co-President</b> at Liverpool Guild of Students
-            (University of Liverpool)
+            Recently finished building an eco house at Graven Hill. Aimed to build a house as fully self sufficient
+            as possible, very glad to be done! I now know far too much about building control processes.
           </header>
         </main>
       </div>
       <div class="row">
-        <aside>2017 - 2018</aside>
+        <aside></aside>
         <main>
           <header>
-            <b>Society Social Secretary</b> at Liverpool Guild of Students
-            (University of Liverpool)
+            Amateur cyclist, <b>hoping</b> to complete the 'North Coast 500' next year.
           </header>
         </main>
       </div>
+
     </section>
   </div>
 </template>
@@ -196,7 +172,7 @@ export default {
   components: { Links },
   setup() {
     useMeta({
-      title: "Benjamin Pilgrim - Curriculum Vitae",
+      title: "Robert Farrow - Curriculum Vitae",
       bodyAttrs: {
         class: "A4",
       },
@@ -209,7 +185,7 @@ export default {
 </script>
 
 <style lang="scss">
-$primary: #3a446e;
+$primary: #d63af2;
 
 @import "~normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -276,7 +252,7 @@ main {
 }
 
 aside {
-  background: #3a446e;
+  background: #530080;
   color: #ffffff;
   text-align: right;
   padding-right: 1em;
