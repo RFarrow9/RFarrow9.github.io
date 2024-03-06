@@ -10,7 +10,7 @@
         <aside><h2>Employment</h2></aside>
       </div>
       <div class="row">
-        <aside>2019 - Present</aside>
+        <aside>2022 Nov - Present</aside>
         <main>
           <header>
             <b><a href="https://profusion.com/">Profusion</a></b> - Head of Engineering
@@ -28,7 +28,7 @@
             <li style="margin-bottom: 10px">
               Architecture across AWS, GCP & Azure based on customer requirements. Phased delivery plan building, jira epic and ticket design.
             </li>
-            <li style="margin-bottom: 10px">
+            <li style="margin-bottom: 10px"nsuring documentation is in place for all internal & external projects, networking across multiple cloud estates, budgetary alignment and management of projects and departmentally, maximising utilisation and resource management.>
               Articles & blogging for communicating technical issues, internal sessions and talks to upskill the entire company in the latest and greatest. Hosting of our data for leaders program. Pitching technical solutions for new sales.
             </li>
             <li style="margin-bottom: 15px">
@@ -46,21 +46,21 @@
         </main>
       </div>
       <div class="row">
-        <aside>2019 - 2022</aside>
+        <aside>2019 Aug - 2022 Nov</aside>
         <main>
           <header>
             <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer</header>
         </main>
       </div>
       <div class="row">
-        <aside>2018 - 2019</aside>
+        <aside>2018 Sep - 2019 Aug</aside>
         <main>
           <header>
             <b><a href="https://www.marsh.com/uk/home.html">Marsh</a></b> - Data Developer</header>
         </main>
       </div>
       <div class="row">
-        <aside>2016 - 2018</aside>
+        <aside>2016 Oct - 2018 Sep</aside>
         <main>
           <header>
             <b><a href="https://www.nsft.nhs.uk/">NHS Norfolk & Suffolk Foundation Trust</a></b> - Business Intelligence Programmer</header>
@@ -78,11 +78,6 @@
             Developed a custom terraform provider for Looker by teaching myself Golang in order to automate
             consistent deployment of various Looker resources.
           </p>
-          <ul class="tech-list">
-            <li style="--color: #ff9900">Golang</li>
-            <li style="--color: #f1e05a">Terraform</li>
-            <li style="--color: #ff6804">Git</li>
-          </ul>
         </main>
       </div>
       <div class="row">
@@ -113,6 +108,18 @@
             <li style="--color: #af6304">VB</li>
             <li style="--color: #d24939">T-SQL</li>
           </ul>
+        </main>
+      </div>
+      <div class="row">
+        <aside>Interest in Javascript and Web Technologies</aside>
+        <main>
+          <p>
+            I have a keen interest in learning and expanding my understanding of web technologies. This CV is created with the 
+            react framework and CI/CD integration as an example. I have been working on expanding this knowledge in my spare time
+            through courses and projects.
+
+            Big fan of the bun runtime, and Typescript > Javascript (don't shoot me).
+          </p>
         </main>
       </div>
     </section>
