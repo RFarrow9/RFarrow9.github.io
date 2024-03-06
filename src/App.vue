@@ -28,7 +28,7 @@
             <li style="margin-bottom: 10px">
               Architecture across AWS, GCP & Azure based on customer requirements. Phased delivery plan building, jira epic and ticket design.
             </li>
-            <li style="margin-bottom: 10px"nsuring documentation is in place for all internal & external projects, networking across multiple cloud estates, budgetary alignment and management of projects and departmentally, maximising utilisation and resource management.>
+            <li style="margin-bottom: 10px">
               Articles & blogging for communicating technical issues, internal sessions and talks to upskill the entire company in the latest and greatest. Hosting of our data for leaders program. Pitching technical solutions for new sales.
             </li>
             <li style="margin-bottom: 15px">
