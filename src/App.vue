@@ -115,7 +115,7 @@
         <main>
           <p>
             I have a keen interest in learning and expanding my understanding of web technologies. This CV is created with the 
-            react framework and CI/CD integration as an example. I have been working on expanding this knowledge in my spare time
+            node and vue frameworks with CI/CD integration as an example. I have been working on expanding this knowledge in my spare time
             through courses and projects.
 
             Big fan of the bun runtime, and Typescript > Javascript (don't shoot me).
