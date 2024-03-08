@@ -42,6 +42,7 @@
             <li style="--color: #b07219">Serverless</li>
             <li style="--color: #ff6804">Git</li>
             <li style="--color: #13aa52">Typescript</li>
+            <li style="--color: #13aa52">golang</li>
           </ul>
         </main>
       </div>
