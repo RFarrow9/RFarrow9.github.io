@@ -82,21 +82,6 @@
         </main>
       </div>
       <div class="row">
-        <aside>
-          Solar Prophet
-        </aside>
-        <main>
-          <p>
-            Personal home-lab started hosting docker based services. Built to serve media, store backups on network storage
-            and to host services for wifi mesh and dynamic ad removal.
-          </p>
-          <ul class="tech-list" style="grid-template-columns: 89px 1fr ;margin: 0 0px">
-            <li style="--color: #34495e">Docker</li>
-            <li style="--color: #d24939">Networking</li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
         <aside>Patient Journey</aside>
         <main>
           <p>
