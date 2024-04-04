@@ -7,32 +7,44 @@
     </section>
     <section>
       <div class="row">
-        <aside><h2>Employment</h2></aside>
+        <aside><h2>Professional Experience</h2></aside>
       </div>
       <div class="row">
         <aside>2022 Nov - Present</aside>
         <main>
-          <header>
-            <b><a href="https://profusion.com/">Profusion</a></b> - Head of Engineering
-          </header>
+          <header><b> <a href="https://profusion.com/">Profusion</a> </b> - Head of Engineering</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px">
-                Line management of the engineering team at Profusion, helping people grow & learn, building culture & interfacing the engineering into the entire company.
+            <li style="margin-bottom: 10px"> Lead and manage an engineering team, overseeing day-to-day operations and
+              responsibilities. Successfully scaled the team from 3 to 12 members, adapting to business changes to
+              maintain an optimal team size of 8.
             </li>
-            <li style="margin-bottom: 10px">
-                Responsible for successful delivery of data projects across a number of clients, from datalakes, to bespoke machine learning products, to web applications.
+            <li style="margin-bottom: 10px"> Oversee budgets for the engineering department, driving the transition from
+              a loss-making unit to the leading revenue generator for the business.
             </li>
-            <li style="margin-bottom: 10px">
-                Engineering Process adoption and building, software development plans, pull requests, branching strategy, unit testing & poker planning.
+            <li style="margin-bottom: 10px"> Developed and implemented a <a href="#utilisation-model">utilization
+              model</a> to identify and optimize inefficiencies in the project pipeline, enhancing overall productivity.
             </li>
-            <li style="margin-bottom: 10px">
-              Architecture across AWS, GCP & Azure based on customer requirements. Phased delivery plan building, jira epic and ticket design.
+            <li style="margin-bottom: 10px"> Develop strategic plans for the team, aligning technologies, skill
+              redundancies, AWS partnership, and goals to drive personal and business growth.
             </li>
-            <li style="margin-bottom: 10px">
-              Articles & blogging for communicating technical issues, internal sessions and talks to upskill the entire company in the latest and greatest. Hosting of our data for leaders program. Pitching technical solutions for new sales.
+            <li style="margin-bottom: 10px"> Foster a culture of continuous learning and improvement, providing
+              knowledge frameworks, challenging projects, and leading by example to encourage engineers to reach their
+              full potential.
             </li>
-            <li style="margin-bottom: 15px">
-              Ensuring documentation is in place for all internal & external projects, networking across multiple cloud estates, budgetary alignment and management of projects and departmentally, maximising utilisation and resource management.
+            <li style="margin-bottom: 10px"> Communicate effectively across the organization to educate the wider
+              company about data engineering and software development, and their future direction.
+            </li>
+            <li style="margin-bottom: 10px"> Provide expert insights to inform business strategy and roadmap, leveraging
+              a deep understanding of the data and software industry.
+            </li>
+            <li style="margin-bottom: 10px"> Contribute to sales efforts, successfully securing the company's largest
+              government project worth over £2 million.
+            </li>
+            <li style="margin-bottom: 10px"> Lead the migration of legacy projects from a local data center to a modern,
+              cloud-native AWS environment.
+            </li>
+            <li style="margin-bottom: 15px"> Implement Infrastructure as Code (IaC) using Terraform, establishing a
+              standardized framework for managing accounts and shared utilities (VPN, VPCs, budgets, etc.).
             </li>
           </ul>
           <ul class="tech-list squares">
@@ -41,30 +53,46 @@
             <li style="--color: #e535ab">Python</li>
             <li style="--color: #b07219">Serverless</li>
             <li style="--color: #ff6804">Git</li>
-            <li style="--color: #13aa52">Typescript</li>
-            <li style="--color: #13aa52">golang</li>
+            <li style="--color: #13aa52">TypeScript</li>
+            <li style="--color: #13aa52">Go</li>
           </ul>
         </main>
       </div>
       <div class="row">
         <aside>2019 Aug - 2022 Nov</aside>
         <main>
-          <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Full Stack Data Engineer</header>
+          <header><b> <a href="https://www.htk.co.uk/">HTK</a> </b> - Full Stack Data Engineer</header>
+          <ul style="margin: 0 15px">
+            <li style="margin-bottom: 10px"> Developed <a href="#autopilot">Autopilot</a>, a machine learning product
+              that ingests horizon data and automatically generates insights, such as churn and anomaly detection.
+            </li>
+            <li style="margin-bottom: 10px"> Designed and implemented a fully decoupled, well-documented, and
+              maintainable architecture.
+            </li>
+            <li style="margin-bottom: 10px"> Implemented real-time data ingestion at scale using EMR (Elastic Map
+              Reduce) and the Spark streaming framework.
+            </li>
+            <li style="margin-bottom: 10px"> Employed MLOps practices for machine learning model deployment, including
+              API integration, automated training workflows, artifact generation, and detection of outdated models.
+            </li>
+            <li style="margin-bottom: 15px"> Established a CI/CD architecture for immediate failure detection in the
+              core codebase, utilizing Jenkins, BlueOcean, and Slack for notification handling.
+            </li>
+          </ul>
         </main>
       </div>
       <div class="row">
         <aside>2018 Sep - 2019 Aug</aside>
         <main>
-          <header>
-            <b><a href="https://www.marsh.com/uk/home.html">Marsh</a></b> - Data Developer</header>
+          <header><b> <a href="https://www.marsh.com/uk/home.html">Marsh</a> </b> - Data Developer</header>
         </main>
       </div>
       <div class="row">
         <aside>2016 Oct - 2018 Sep</aside>
         <main>
-          <header>
-            <b><a href="https://www.nsft.nhs.uk/">NHS Norfolk & Suffolk Foundation Trust</a></b> - Business Intelligence Programmer</header>
+          <header><b> <a href="https://www.nsft.nhs.uk/"> NHS Norfolk & Suffolk Foundation Trust </a> </b> - Business
+            Intelligence Programmer
+          </header>
         </main>
       </div>
     </section>
@@ -73,40 +101,62 @@
         <aside><h2>Projects</h2></aside>
       </div>
       <div class="row">
-        <aside>Terraform Looker Provider</aside>
-        <main>
-          <p>
-            Developed a custom terraform provider for Looker by teaching myself Golang in order to automate
-            consistent deployment of various Looker resources.
-          </p>
-        </main>
+        <aside>Project X</aside>
+        <main><p> Developed an AI-powered system to perform live queries on a financial database, providing insights
+          into not only the data (e.g., profit & loss) but also the underlying reasons behind the figures. </p></main>
       </div>
       <div class="row">
-        <aside>Patient Journey</aside>
-        <main>
-          <p>
-            A data exploration tool built in Excel using VBA and integration with SQL Server. Built to address the needs
-            of practitioners at NHS trusts, and to grant immediate access to the most up to date data in an easy to consume
-            format.
-            Built in visualisations for an at a glance 'health check' at any level to and to inform on immediate concerns.
-          </p>
-          <ul class="tech-list">
-            <li style="--color: #af6304">VB</li>
-            <li style="--color: #d24939">T-SQL</li>
-          </ul>
-        </main>
+        <aside>AWS Data Platform</aside>
+        <main><p> Designed and implemented a scalable AWS data platform that ingests data from 20+ sources and
+          constructs a unified semantic layer for use across an entire government department. </p></main>
       </div>
       <div class="row">
-        <aside>Interest in Javascript and Web Technologies</aside>
-        <main>
-          <p>
-            I have a keen interest in learning and expanding my understanding of web technologies. This CV is created with the 
-            node and vue frameworks with CI/CD integration as an example. I have been working on expanding this knowledge in my spare time
-            through courses and projects.
-
-            Big fan of the bun runtime, and Typescript > Javascript (don't shoot me).
-          </p>
-        </main>
+        <aside>Perfume Recommender API</aside>
+        <main><p> Created an API layer for a series of machine learning models that predict favorite perfumes for a
+          large perfume client. </p></main>
+      </div>
+      <div class="row">
+        <aside>Options Trading Bot</aside>
+        <main><p> Developed a Go-based trading bot that interacts with the options market and executes trades based on a
+          set of predefined indicators. </p></main>
+      </div>
+      <div class="row">
+        <aside>Automotive CRM Data Platform</aside>
+        <main><p> Built a secure AWS data platform for a large automotive client to process and analyze data from
+          Salesforce and other CRM systems. </p></main>
+      </div>
+      <div class="row">
+        <aside>Project Migration</aside>
+        <main><p> Successfully migrated existing projects (PHP, JavaScript, and Python) from a local data center to AWS,
+          leveraging native AWS technologies instead of a lift-and-shift approach to EC2. </p></main>
+      </div>
+      <div class="row">
+        <aside>Patient Journey Tool</aside>
+        <main><p id="patient-journey-tool"> Developed a cost-effective Patient Journey tool using VBA for Excel, which
+          exposed data from a data warehouse to clinicians in an NHS trust. This tool played a crucial role in helping a
+          failing trust address critiques regarding data visibility. </p></main>
+      </div>
+      <div class="row">
+        <aside>Autopilot Platform</aside>
+        <main><p id="autopilot"> Created the <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/">Autopilot
+          platform</a>, a real-time Spark on EMR solution for fully automated machine learning on a bespoke schema
+          (horizon system). </p></main>
+      </div>
+      <div class="row">
+        <aside>Custom Terraform Provider</aside>
+        <main><p> Developed a custom Terraform provider in Go to support one-click Looker deployments by mapping the
+          Looker APIs to Terraform. </p></main>
+      </div>
+      <div class="row">
+        <aside>Home Network</aside>
+        <main><p> Designed and implemented a custom home network with features such as dynamic ad removal, Wi-Fi
+          meshing, and custom alerting for a battery/solar panel/ASHP setup to reduce costs. </p></main>
+      </div>
+      <div class="row">
+        <aside>Utilization Optimization Model</aside>
+        <main><p id="utilisation-model"> Developed a custom model for utilization optimization at Profusion, providing
+          full transparency of work pipelines and staff placement, resulting in significant improvements in company-wide
+          profits. </p></main>
       </div>
     </section>
     <section>
@@ -116,77 +166,54 @@
       <div class="row">
         <aside>2012 - 2015</aside>
         <main>
-          <header>
-            <b><a href="https://www.ucl.ac.uk/">University College London</a></b> - BSc Chemistry
-          </header>
+          <header><b><a href="https://www.ucl.ac.uk/">University College London</a></b> - BSc Chemistry</header>
         </main>
       </div>
       <div class="row">
         <aside>2010 - 2012</aside>
         <main>
-          <header>
-            <b><a href="https://www.hsdc.ac.uk/study-with-us/alton-campus/">Alton College</a></b>
-             - A Levels: Maths (A), Chemistry (A), Biology (A*)
+          <header><b><a href="https://www.hsdc.ac.uk/study-with-us/alton-campus/">Alton College</a></b> - A Levels:
+            Mathematics (A), Chemistry (A), Biology (A*)
           </header>
         </main>
       </div>
     </section>
     <section>
       <div class="row">
-        <aside><h2>Other</h2></aside>
+        <aside><h2>Personal Interests</h2></aside>
       </div>
       <div class="row">
         <aside></aside>
         <main>
-          <header>
-            Recently finished building an eco house at Graven Hill. Aimed to build a house as fully self sufficient
-            as possible, very glad to be done! I now know far too much about building control processes.
+          <header> Recently completed the construction of an eco-friendly house at Graven Hill, aiming to build a fully
+            self-sufficient home. Gained extensive knowledge of building control processes throughout the project.
           </header>
         </main>
       </div>
       <div class="row">
         <aside></aside>
         <main>
-          <header>
-            Amateur cyclist, <b>hoping</b> to complete the 'North Coast 500' next year.
-          </header>
+          <header> Avid amateur cyclist with plans to complete the 'North Coast 500' in the upcoming year.</header>
         </main>
       </div>
-
     </section>
   </div>
 </template>
-
-<script>
-import { useMeta } from "vue-meta";
-import Links from "./components/Links.vue";
+<script> import { useMeta } from 'vue-meta'
+import Links from './components/Links.vue'
 
 export default {
-  components: { Links },
-  setup() {
-    useMeta({
-      title: "Robert Farrow - Curriculum Vitae",
-      bodyAttrs: {
-        class: "A4",
-      },
-    });
-  },
-  mounted() {
-    this.$nextTick(() => document.body.dispatchEvent(new Event("view-ready")));
-  },
-};
-</script>
-
-<style lang="scss">
-$primary: #d63af2;
-
+  components: { Links }, setup() {
+    useMeta({ title: 'Robert Farrow - Curriculum Vitae', bodyAttrs: { class: 'A4' } })
+  }, mounted() {
+    this.$nextTick(() => document.body.dispatchEvent(new Event('view-ready')))
+  }
+} </script>
+<style lang="scss"> $primary: #d63af2;
 @import 'normalize.css/normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import 'paper-css/paper.css';
-
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -197,7 +224,7 @@ $primary: #d63af2;
 }
 
 body.A4 .sheet {
-  height: 297mm !important;
+  height: 2970mm !important;
 }
 
 body {
@@ -212,16 +239,14 @@ body {
   font-size: 12px;
 }
 
-a,
-a:hover {
+a, a:hover {
   font-weight: inherit;
   color: inherit;
   text-decoration: none;
   font-style: normal;
 }
 
-.sheet,
-section {
+.sheet, section {
   display: flex;
   flex-direction: column;
 
@@ -235,8 +260,7 @@ section {
   grid-template-columns: 27% auto;
 }
 
-aside,
-main {
+aside, main {
   padding: 0.7em 1em 0 15px;
 
   > * {
@@ -251,12 +275,7 @@ aside {
   padding-right: 1em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -299,5 +318,4 @@ h1 {
     margin: 0.1em 0.5em 0.1em 0.1em;
     float: left;
   }
-}
-</style>
+} </style>
