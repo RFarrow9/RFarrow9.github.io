@@ -305,6 +305,7 @@ export default {
   body {
     margin: 0;
     background: white;
+    zoom: 122.5%;
 
     display: flex;
     justify-content: center;
