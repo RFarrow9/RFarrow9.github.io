@@ -12,6 +12,8 @@
     <icon brand name="linkedin"/>
     <a href="https://medium.com/@rob-f" target="_blank">Medium</a>
     <icon brand name="medium"/>
+    <a href="https://rob-farrow.me.uk" target="_blank">This CV</a>
+    <icon brand name="vuejs"/>
   </main>
 </template>
 

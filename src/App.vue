@@ -1,6 +1,7 @@
 <template>
   <metainfo></metainfo>
   <div class="sheet" style="display: flex; flex-direction: column">
+    <div class="page">
     <section class="row">
       <aside><h1>Robert Farrow</h1></aside>
       <links />
@@ -10,7 +11,33 @@
         <aside><h2>Professional Experience</h2></aside>
       </div>
       <div class="row">
-        <aside>2022 Nov - Present</aside>
+        <aside>
+          <div class="aside-content">
+          2022 Nov - Present
+          <div class="tech-list-container">
+            <ul class="tech-list squares">
+              <li style="--color: #ff69b4">AWS</li>
+              <li style="--color: #00bfff">Terraform</li>
+              <li style="--color: #9acd32">Python</li>
+              <li style="--color: #ff6347">SQL</li>
+              <li style="--color: #ff8c00">Serverless λ</li>
+              <li style="--color: #dc143c">Git</li>
+              <li style="--color: #6a5acd">TypeScript</li>
+              <li style="--color: #ff1493">Javscript</li>
+              <li style="--color: #7fff00">Go</li>
+              <li style="--color: #ff4500">Spark</li>
+              <li style="--color: #800080">Github Actions</li>
+              <li style="--color: #00fa9a">Docker</li>
+              <li style="--color: #ffd700">dbt</li>
+              <li style="--color: #00ced1">Snowflake</li>
+              <li style="--color: #ff6347">APIs</li>
+              <li style="--color: #7fff00">Linux</li>
+              <li style="--color: #8a2be2">LLMs</li>
+
+            </ul>
+          </div>
+         </div>
+        </aside>
         <main>
           <header><b> <a href="https://profusion.com/">Profusion</a> </b> - Head of Engineering</header>
           <ul style="margin: 0 15px">
@@ -19,58 +46,75 @@
               maintain an optimal team size of 8.
             </li>
             <li style="margin-bottom: 10px"> Oversee budgets for the engineering department, driving the transition from
-              a loss-making unit to the leading revenue generator for the business.
+              a loss-making unit to the leading revenue generator for the business. Led on adding structure to our
+              internal accounting process adding visibility and accountability, leading the business from loss making
+              to profitable.
             </li>
-            <li style="margin-bottom: 10px"> Developed and implemented a <a href="#utilisation-model">utilization
-              model</a> to identify and optimize inefficiencies in the project pipeline, enhancing overall productivity.
+            <li style="margin-bottom: 10px"> Developed and implemented a utilization
+              model to identify and optimize inefficiencies in the project pipeline, enhancing overall productivity.
             </li>
-            <li style="margin-bottom: 10px"> Develop strategic plans for the team, aligning technologies, skill
-              redundancies, AWS partnership, and goals to drive personal and business growth.
+            <li style="margin-bottom: 10px"> Developed strategic plans for the team, aligning technologies, skill redundancies,
+              AWS partnership, and goals to drive personal and business growth.
             </li>
-            <li style="margin-bottom: 10px"> Foster a culture of continuous learning and improvement, providing
-              knowledge frameworks, challenging projects, and leading by example to encourage engineers to reach their
-              full potential.
+            <li style="margin-bottom: 10px"> Foster a culture of continuous learning and improvement, providing knowledge frameworks,
+              challenging projects, and leading by example to encourage engineers to reach their full potential.
             </li>
-            <li style="margin-bottom: 10px"> Communicate effectively across the organization to educate the wider
-              company about data engineering and software development, and their future direction.
+            <li style="margin-bottom: 10px"> Communicate effectively both inside the organization to educate the wider
+              company about data engineering and software development, and their future direction, as well as outside the
+              company with blog posts like
+              <a href="https://medium.com/@rob-f/coding-tenacity-video-games-the-beauty-of-failure-f012adbfe71b"
+                 style="color: blue; text-decoration: underline;"> coding, tenacity, video games & the beauty of failure</a>
+              and <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
+                 style="color: blue; text-decoration: underline;"> the machine that builds the machine</a>
             </li>
             <li style="margin-bottom: 10px"> Provide expert insights to inform business strategy and roadmap, leveraging
               a deep understanding of the data and software industry.
             </li>
-            <li style="margin-bottom: 10px"> Contribute to sales efforts, successfully securing the company's largest
-              government project worth over £2 million.
+            <li style="margin-bottom: 10px"> Contribute to sales efforts, leading the pitch to successfully secure the company's largest
+               project worth over £2 million over 2 years.
             </li>
-            <li style="margin-bottom: 10px"> Lead the migration of legacy projects from a local data center to a modern,
-              cloud-native AWS environment.
+            <li style="margin-bottom: 15px"> Developed a IAC framework using terraform for AWS account management including but not limited to VPC setups,
+              VPN, IAM assume roles and permission designation, budgeting, alerting, budgeting & endpoint management to
+              support a new framework for multiple clients in their own clouds
             </li>
-            <li style="margin-bottom: 15px"> Implement Infrastructure as Code (IaC) using Terraform, establishing a
-              standardized framework for managing accounts and shared utilities (VPN, VPCs, budgets, etc.).
-            </li>
-          </ul>
-          <ul class="tech-list squares">
-            <li style="--color: #80ea6e">AWS</li>
-            <li style="--color: #f1e05a">Terraform</li>
-            <li style="--color: #e535ab">Python</li>
-            <li style="--color: #b07219">Serverless</li>
-            <li style="--color: #ff6804">Git</li>
-            <li style="--color: #13aa52">TypeScript</li>
-            <li style="--color: #13aa52">Go</li>
           </ul>
         </main>
       </div>
       <div class="row">
-        <aside>2019 Aug - 2022 Nov</aside>
-        <main>
+        <aside>
+          <div class="aside-content">
+          2019 Aug - 2022 Nov
+            <div class="tech-list-container">
+            <ul class="tech-list squares">
+              <li style="--color: #ff69b4">AWS</li>
+              <li style="--color: #00bfff">Terraform</li>
+              <li style="--color: #9acd32">Python</li>
+              <li style="--color: #ff6347">SQL</li>
+              <li style="--color: #ff4500">EMR</li>
+              <li style="--color: #ffa07a">Lambda</li>
+              <li style="--color: #20b2aa">Jenkins</li>
+              <li style="--color: #ff6347">Go</li>
+              <li style="--color: #9acd32">Appmesh</li>
+              <li style="--color: #ff1493">Looker</li>
+              <li style="--color: #7b68ee">Pytest</li>
+            </ul>
+            </div>
+          </div>
+        </aside>
+        <main style="min-height: 380px;">
           <header><b> <a href="https://www.htk.co.uk/">HTK</a> </b> - Full Stack Data Engineer</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Developed <a href="#autopilot">Autopilot</a>, a machine learning product
-              that ingests horizon data and automatically generates insights, such as churn and anomaly detection.
+            <li style="margin-bottom: 10px"> Developed <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/"
+              style="color: blue; text-decoration: underline;">
+              Autopilot platform</a>, a machine learning product that ingests real-time horizon data
+              and automatically generates insights, such as churn and anomaly detection.
             </li>
             <li style="margin-bottom: 10px"> Designed and implemented a fully decoupled, well-documented, and
-              maintainable architecture.
+              maintainable architecture using EMR, SFN, Lambda, ECS, Appmesh, Athena,
+              Looker, Sagemaker, RDS.
             </li>
-            <li style="margin-bottom: 10px"> Implemented real-time data ingestion at scale using EMR (Elastic Map
-              Reduce) and the Spark streaming framework.
+            <li style="margin-bottom: 10px"> Built a custom go based terraform provider for the looker BI tool in order to
+              support fully automated CICD based deployments of Autopilot.
             </li>
             <li style="margin-bottom: 10px"> Employed MLOps practices for machine learning model deployment, including
               API integration, automated training workflows, artifact generation, and detection of outdated models.
@@ -78,52 +122,91 @@
             <li style="margin-bottom: 15px"> Established a CI/CD architecture for immediate failure detection in the
               core codebase, utilizing Jenkins, BlueOcean, and Slack for notification handling.
             </li>
+            <li style="margin-bottom: 15px"> Built a fully functioning data generator that could realistically model
+              consumer habits using the spark framework that scales to billions of rows of data for full
+              integration testing.
+            </li>
           </ul>
         </main>
+      </div>
+    </section>
+    </div>
+    <div class="page">
+    <section>
+      <div class="row" style="min-height: 25px">
+        <aside></aside>
       </div>
       <div class="row">
         <aside>2018 Sep - 2019 Aug</aside>
         <main>
-          <header><b> <a href="https://www.marsh.com/uk/home.html">Marsh</a> </b> - Data Developer</header>
+          <header ><b> <a href="https://www.marsh.com/uk/home.html">Marsh</a> </b> - Data Developer</header>          <ul style="margin: 0 15px">
+            <li style="margin-bottom: 10px"> Developed automated consolidation of insurance and reinsurance across multiple platforms
+              using Python, Qlikview & SQL. Solved long running joining systems on broker issue with levenshtein based
+              algorithms which would 'first solve', and be validated by human response in a decentralised repository
+              accessed by the user favourite - excel.
+            </li>
+          </ul>
         </main>
       </div>
       <div class="row">
-        <aside>2016 Oct - 2018 Sep</aside>
+        <aside>2016 October - 2018 September</aside>
         <main>
           <header><b> <a href="https://www.nsft.nhs.uk/"> NHS Norfolk & Suffolk Foundation Trust </a> </b> - Business
             Intelligence Programmer
           </header>
+          <ul style="margin: 0 15px">
+            <li style="margin-bottom: 10px"> Developed the 'Patient Journey' application on my own initiative, a cost effective centralised
+              VBA (visual basic) based application that would allow for excel access to a central datawarehouse that was
+              used to align reporting with care practitioners. Allowing for a trust in special measures to address critiques
+              on data availability and robustness.
+            </li>
+          </ul>
         </main>
       </div>
-    </section>
-    <section>
+      <div class="row">
+        <aside>2015 July - 2016 October</aside>
+        <main>
+          <header><b> <a href="https://www.idbs.com/">IDBS</a> </b> - 3rd Line Support Engineer</header>
+          <ul style="margin: 0 15px">
+            <li style="margin-bottom: 10px">
+              Solved complex queries and issues for a pharmatech company, leading the scoreboard of tickets resolved
+              and developing frameworks for automation of common issue resolution, updating documentation and knowledge
+              portals, and becoming subject matter expert in IDBS use of relational databases.
+            </li>
+          </ul>
+        </main>
+      </div>
+      <div class="row">
+        <aside><h2> </h2></aside>
+      </div>
       <div class="row">
         <aside><h2>Projects</h2></aside>
       </div>
       <div class="row">
         <aside>Project X</aside>
-        <main><p> Developed an AI-powered system to perform live queries on a financial database, providing insights
-          into not only the data (e.g., profit & loss) but also the underlying reasons behind the figures. </p></main>
+        <main><p> An AI-powered system to perform live queries on a financial database, providing insights
+          into not only the data (e.g., profit & loss) but also the underlying reasons behind the figures.
+          Uses function-calling & APIs on the OpenAI ChatGPT stack. Created a custom framework to allow for a
+          process to map 'data abstractions' to models to allow for 'traversing of abstractions' in subjects.
+        </p></main>
       </div>
       <div class="row">
-        <aside>AWS Data Platform</aside>
-        <main><p> Designed and implemented a scalable AWS data platform that ingests data from 20+ sources and
-          constructs a unified semantic layer for use across an entire government department. </p></main>
-      </div>
-      <div class="row">
-        <aside>Perfume Recommender API</aside>
-        <main><p> Created an API layer for a series of machine learning models that predict favorite perfumes for a
-          large perfume client. </p></main>
+        <aside>Janus</aside>
+        <main><p> Architected and led implementation of a scalable AWS data platform that ingests data from 20+ sources and
+          constructs a unified semantic layer for use across an entire government department using Datalakehouse technologies
+          on an ELT based ingestion. Uses ECR, Terraform, Docker, Python & Pandas, Athena, SQL & Github Actions </p></main>
       </div>
       <div class="row">
         <aside>Options Trading Bot</aside>
         <main><p> Developed a Go-based trading bot that interacts with the options market and executes trades based on a
-          set of predefined indicators. </p></main>
+          predefined strategy. Maps the tradestation HTTP based API into golang using net/http lib and leverages
+        goroutines for concurrent processing as well as mutexes for thread safety.</p></main>
       </div>
       <div class="row">
-        <aside>Automotive CRM Data Platform</aside>
-        <main><p> Built a secure AWS data platform for a large automotive client to process and analyze data from
-          Salesforce and other CRM systems. </p></main>
+        <aside>Automotive Data Platform</aside>
+        <main><p> Architected and led development of a polyrepo based secure AWS data platform for a large automotive client
+          to process and analyze data from Salesforce and other CRM systems to generate a single customer view and customer lifetime
+          value. </p></main>
       </div>
       <div class="row">
         <aside>Project Migration</aside>
@@ -131,32 +214,10 @@
           leveraging native AWS technologies instead of a lift-and-shift approach to EC2. </p></main>
       </div>
       <div class="row">
-        <aside>Patient Journey Tool</aside>
-        <main><p id="patient-journey-tool"> Developed a cost-effective Patient Journey tool using VBA for Excel, which
-          exposed data from a data warehouse to clinicians in an NHS trust. This tool played a crucial role in helping a
-          failing trust address critiques regarding data visibility. </p></main>
-      </div>
-      <div class="row">
-        <aside>Autopilot Platform</aside>
-        <main><p id="autopilot"> Created the <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/">Autopilot
-          platform</a>, a real-time Spark on EMR solution for fully automated machine learning on a bespoke schema
-          (horizon system). </p></main>
-      </div>
-      <div class="row">
-        <aside>Custom Terraform Provider</aside>
-        <main><p> Developed a custom Terraform provider in Go to support one-click Looker deployments by mapping the
-          Looker APIs to Terraform. </p></main>
-      </div>
-      <div class="row">
         <aside>Home Network</aside>
-        <main><p> Designed and implemented a custom home network with features such as dynamic ad removal, Wi-Fi
-          meshing, and custom alerting for a battery/solar panel/ASHP setup to reduce costs. </p></main>
-      </div>
-      <div class="row">
-        <aside>Utilization Optimization Model</aside>
-        <main><p id="utilisation-model"> Developed a custom model for utilization optimization at Profusion, providing
-          full transparency of work pipelines and staff placement, resulting in significant improvements in company-wide
-          profits. </p></main>
+        <main><p> Designed and implemented a custom home network with features such as dynamic ad removal using Pi-hole
+          , Wi-Fi meshing with unifi, and custom alerting for a battery/solar panel/ASHP setup to reduce costs & optimise
+          usage via thermal energy storage. </p></main>
       </div>
     </section>
     <section>
@@ -185,8 +246,10 @@
       <div class="row">
         <aside></aside>
         <main>
-          <header> Recently completed the construction of an eco-friendly house at Graven Hill, aiming to build a fully
-            self-sufficient home. Gained extensive knowledge of building control processes throughout the project.
+          <header> Built my own eco-friendly house at <a href="https://www.gravenhill.co.uk/"
+          style="color: blue; text-decoration: underline;">Graven Hill</a>, aimed to build a fully self-sufficient home
+            that minimises carbon output and running costs. Gained extensive knowledge of building control processes
+            throughout the project.
           </header>
         </main>
       </div>
@@ -196,15 +259,28 @@
           <header> Avid amateur cyclist with plans to complete the 'North Coast 500' in the upcoming year.</header>
         </main>
       </div>
+      <div class="row">
+      <aside></aside>
+      <main>
+        <header> When I'm not coding or doing DIY, I can often be found in the kitchen. Big fan of cooking and baking.</header>
+      </main>
+    </div>
     </section>
-  </div>
+      <section class="expandable">
+        <div class="row filler">
+          <aside></aside>
+          <main></main>
+        </div>
+      </section>
+    </div></div>
 </template>
-<script> import { useMeta } from 'vue-meta'
+<script>
+import { useMeta } from 'vue-meta'
 import Links from './components/Links.vue'
 
 export default {
   components: { Links }, setup() {
-    useMeta({ title: 'Robert Farrow - Curriculum Vitae', bodyAttrs: { class: 'A4' } })
+    useMeta({ title: 'Robert Farrow - Curriculum Vitae'})
   }, mounted() {
     this.$nextTick(() => document.body.dispatchEvent(new Event('view-ready')))
   }
@@ -213,25 +289,58 @@ export default {
 @import 'normalize.css/normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import 'paper-css/paper.css';
+
 *, *::after, *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-@page {
-  size: A4;
-}
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
 
-body.A4 .sheet {
-  height: 2970mm !important;
+  body {
+    margin: 0;
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .sheet {
+    width: 210mm; /* A4 width */
+    margin: 0 auto; /* Center the sheet horizontally */
+    box-sizing: border-box; /* Include padding in the element's total width */
+
+    min-height: 594mm; /* A4 height */
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+  }
+
+  .page {
+    page-break-after: always;
+    height: 297mm;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .expandable {
+    flex-grow: 1;
+  }
 }
 
 body {
-  @media print {
-    zoom: 122.5%;
-    background: white;
-  }
   @media screen {
     background: #484349 !important;
   }
@@ -239,11 +348,54 @@ body {
   font-size: 12px;
 }
 
+@page {
+  size: A4;
+}
+
+@media screen {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .sheet {
+    width: 210mm; /* A4 width */
+    min-height: 297mm; /* A4 height */
+    box-sizing: border-box; /* Include padding in the element's total width */
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    margin: 20px;
+  }
+}
+
 a, a:hover {
   font-weight: inherit;
   color: inherit;
   text-decoration: none;
   font-style: normal;
+}
+
+.expandable {
+  height: 100%;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+aside {
+  background: #530080;
+  color: #ffffff;
+  text-align: right;
+  padding-right: 1em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .sheet, section {
@@ -268,12 +420,63 @@ aside, main {
   }
 }
 
-aside {
-  background: #530080;
-  color: #ffffff;
-  text-align: right;
-  padding-right: 1em;
+.aside-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1; /* Add this */
 }
+
+.tech-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+  width: 100%; /* Add this to make the tech list fill the available width */
+
+}
+
+.tech-list {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the tech list items */
+  width: 100%; /* Add this to make the tech list fill the available width */
+  flex: 1;
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: flex-start;
+    font-size: 1.1em;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    padding-left: 1.8em;
+    text-align: left;
+  }
+
+  &.squares {
+    li::before {
+      border-radius: 20%;
+    }
+  }
+
+  li::before {
+    content: " ";
+    background-color: var(--color);
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -288,34 +491,7 @@ h1 {
   line-height: 2.4rem;
   font-size: 2rem;
 }
-
-.tech-list {
-  display: grid;
-  list-style: none;
-  grid-gap: 5px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-flow: dense;
-
-  li {
-    flex-shrink: 0;
-  }
-
-  &.squares {
-    padding-bottom: 10px;
-
-    li::before {
-      border-radius: 20%;
-    }
-  }
-
-  li::before {
-    display: block;
-    content: " ";
-    background-color: var(--color);
-    height: 0.9em;
-    width: 0.9em;
-    border-radius: 100%;
-    margin: 0.1em 0.5em 0.1em 0.1em;
-    float: left;
-  }
-} </style>
+h2 {
+   padding-bottom: 10px;
+ }
+</style>
