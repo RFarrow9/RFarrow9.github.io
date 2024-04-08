@@ -305,7 +305,7 @@ export default {
   body {
     margin: 0;
     background: white;
-    zoom: 122.5%;
+    //zoom: 122.5%;
 
     display: flex;
     justify-content: center;
@@ -324,7 +324,7 @@ export default {
   }
 
   .page {
-    page-break-after: always;
+    page-break-inside: avoid;
     height: 297mm;
     padding-bottom: 0;
     display: flex;
@@ -337,14 +337,11 @@ export default {
   }
 
   .expandable {
-    flex-grow: 1;
+    //flex-grow: 1;
   }
 }
 
 body {
-  @media screen {
-    background: #484349 !important;
-  }
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
@@ -355,6 +352,7 @@ body {
 
 @media screen {
   body {
+    background: #484349 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,7 +384,7 @@ a, a:hover {
 }
 
 .filler {
-  flex-grow: 1;
+  //flex-grow: 1;
 }
 
 aside {
