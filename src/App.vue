@@ -3,7 +3,7 @@
   <div class="sheet" style="display: flex; flex-direction: column">
     <div class="page">
     <section class="row">
-      <aside><h1>Robert Farrow</h1></aside>
+      <aside><h1>##########</h1></aside>
       <links />
     </section>
     <section>

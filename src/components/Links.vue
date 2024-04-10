@@ -1,18 +1,18 @@
 <template>
   <main class="links">
-    <a href="mailto:rob.farrow+cv@hotmail.com" target="_blank">rob.farrow+cv@hotmail.com</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon name="envelope"/>
-    <a href="https://goo.gl/maps/jpvoQb3vADQ5AK8B6" target="_blank">Bicester, Oxfordshire</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon name="map-marked-alt"/>
-    <a href="tel:07938128115" target="_blank">07938 128115</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon name="mobile-alt"/>
-    <a href="https://github.com/RFarrow9?tab=repositories" target="_blank">RFarrow9</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon brand name="github"/>
-    <a href="https://www.linkedin.com/in/robertfarrow1/" target="_blank">LinkedIn</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon brand name="linkedin"/>
-    <a href="https://medium.com/@rob-f" target="_blank">Medium</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon brand name="medium"/>
-    <a href="https://rob-farrow.me.uk" target="_blank">This CV</a>
+    <a href="https://google.com" target="_blank">#######</a>
     <icon brand name="vuejs"/>
   </main>
 </template>
