@@ -33,7 +33,8 @@
               <li style="--color: #ff6347">APIs</li>
               <li style="--color: #7fff00">Linux</li>
               <li style="--color: #8a2be2">LLMs</li>
-
+              <li style="--color: #6a5acd">Azure</li>
+              <li style="--color: #ff8c00">GCP</li>
             </ul>
           </div>
          </div>
@@ -209,9 +210,9 @@
           value. </p></main>
       </div>
       <div class="row">
-        <aside>Project Migration</aside>
-        <main><p> Successfully migrated existing projects (PHP, JavaScript, and Python) from a local data center to AWS,
-          leveraging native AWS technologies instead of a lift-and-shift approach to EC2. </p></main>
+        <aside>Azure Platform</aside>
+        <main><p> Architected and led delivery of an Azure data platform utilising azure functions and synapse, with extensive
+        security controls, IAC and adherance to best practices.</p></main>
       </div>
       <div class="row">
         <aside>Home Network</aside>
@@ -248,8 +249,8 @@
         <main>
           <header> Built my own eco-friendly house at <a href="https://www.gravenhill.co.uk/"
           style="color: blue; text-decoration: underline;">Graven Hill</a>, aimed to build a fully self-sufficient home
-            that minimises carbon output and running costs. Gained extensive knowledge of building control processes
-            throughout the project.
+            that minimises carbon output and running costs. Project managed and built myself, after a long slog - now 
+            very pleased with the result!
           </header>
         </main>
       </div>
