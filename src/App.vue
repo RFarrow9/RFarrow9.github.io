@@ -212,7 +212,8 @@
       <div class="row">
         <aside>Azure Platform</aside>
         <main><p> Architected and led delivery of an Azure data platform utilising azure functions and synapse, with extensive
-        security controls, IAC and adherance to best practices.</p></main>
+        security controls, IAC and adherance to best practices in order to inform internal business process and generate reporting
+        used by private equity firms to improve profitability.</p></main>
       </div>
       <div class="row">
         <aside>Home Network</aside>
