@@ -43,19 +43,21 @@
           <header><b> <a href="https://profusion.com/">Profusion</a> </b> - Head of Engineering</header>
           <ul style="margin: 0 15px">
             <li style="margin-bottom: 10px"> Lead and manage an engineering team, overseeing day-to-day operations and
-              responsibilities. Successfully scaled the team from 3 to 12 members, adapting to business changes to
-              maintain an optimal team size of 8.
+              responsibilities. Successfully hired & onboarded new team members, performance managed, and strive to not
+              do the easy thing as a leader, but the right thing, unafraid to make hard decisions to maintain a high-functioning team.
             </li>
             <li style="margin-bottom: 10px"> Oversee budgets for the engineering department, driving the transition from
               a loss-making unit to the leading revenue generator for the business. Led on adding structure to our
               internal accounting process adding visibility and accountability, leading the business from loss making
               to profitable.
             </li>
-            <li style="margin-bottom: 10px"> Developed and implemented a utilization
-              model to identify and optimize inefficiencies in the project pipeline, enhancing overall productivity.
+            <li style="margin-bottom: 10px"> Developed and implemented a utilization model to identify and optimize
+            inefficiencies in the project pipeline, enhancing overall productivity. Upskilled project management to this
+            process, and now comfortably sit in the minimum 70% billable work zone for consultancy profitability.
             </li>
             <li style="margin-bottom: 10px"> Developed strategic plans for the team, aligning technologies, skill redundancies,
-              AWS partnership, and goals to drive personal and business growth.
+              AWS partnership, and goals to drive personal and business growth. I hold my team and myself accountable for
+               their own development and growth.
             </li>
             <li style="margin-bottom: 10px"> Foster a culture of continuous learning and improvement, providing knowledge frameworks,
               challenging projects, and leading by example to encourage engineers to reach their full potential.
