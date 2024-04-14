@@ -70,9 +70,6 @@
               and <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
                  style="color: blue; text-decoration: underline;"> the machine that builds the machine</a>
             </li>
-            <li style="margin-bottom: 10px"> Provide expert insights to inform business strategy and roadmap, leveraging
-              a deep understanding of the data and software industry.
-            </li>
             <li style="margin-bottom: 10px"> Contribute to sales efforts, leading the pitch to successfully secure the company's largest
                project worth over £2 million over 2 years.
             </li>
