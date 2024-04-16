@@ -16,25 +16,25 @@
           2022 Nov - Present
           <div class="tech-list-container">
             <ul class="tech-list squares">
-              <li style="--color: #ff69b4">AWS</li>
+              <li style="--color: #00bfff">AWS</li>
               <li style="--color: #00bfff">Terraform</li>
-              <li style="--color: #9acd32">Python</li>
-              <li style="--color: #ff6347">SQL</li>
-              <li style="--color: #ff8c00">Serverless λ</li>
-              <li style="--color: #dc143c">Git</li>
-              <li style="--color: #6a5acd">TypeScript</li>
-              <li style="--color: #ff1493">Javscript</li>
-              <li style="--color: #7fff00">Go</li>
-              <li style="--color: #ff4500">Spark</li>
-              <li style="--color: #800080">Github Actions</li>
-              <li style="--color: #00fa9a">Docker</li>
-              <li style="--color: #ffd700">dbt</li>
-              <li style="--color: #00ced1">Snowflake</li>
-              <li style="--color: #ff6347">APIs</li>
-              <li style="--color: #7fff00">Linux</li>
-              <li style="--color: #8a2be2">LLMs</li>
-              <li style="--color: #6a5acd">Azure</li>
-              <li style="--color: #ff8c00">GCP</li>
+              <li style="--color: #00bfff">Python</li>
+              <li style="--color: #00bfff">SQL</li>
+              <li style="--color: #00bfff">Serverless λ</li>
+              <li style="--color: #00bfff">Git</li>
+              <li style="--color: #00bfff">TypeScript</li>
+              <li style="--color: #00bfff">Javscript</li>
+              <li style="--color: #00bfff">Go</li>
+              <li style="--color: #00bfff">Spark</li>
+              <li style="--color: #00bfff">Github Actions</li>
+              <li style="--color: #00bfff">Docker</li>
+              <li style="--color: #00bfff">dbt</li>
+              <li style="--color: #00bfff">Snowflake</li>
+              <li style="--color: #00bfff">APIs</li>
+              <li style="--color: #00bfff">Linux</li>
+              <li style="--color: #00bfff">LLMs</li>
+              <li style="--color: #00bfff">Azure</li>
+              <li style="--color: #00bfff">GCP</li>
             </ul>
           </div>
          </div>
@@ -86,17 +86,17 @@
           2019 Aug - 2022 Nov
             <div class="tech-list-container">
             <ul class="tech-list squares">
-              <li style="--color: #ff69b4">AWS</li>
+              <li style="--color: #00bfff">AWS</li>
               <li style="--color: #00bfff">Terraform</li>
-              <li style="--color: #9acd32">Python</li>
-              <li style="--color: #ff6347">SQL</li>
-              <li style="--color: #ff4500">EMR</li>
-              <li style="--color: #ffa07a">Lambda</li>
-              <li style="--color: #20b2aa">Jenkins</li>
-              <li style="--color: #ff6347">Go</li>
-              <li style="--color: #9acd32">Appmesh</li>
-              <li style="--color: #ff1493">Looker</li>
-              <li style="--color: #7b68ee">Pytest</li>
+              <li style="--color: #00bfff">Python</li>
+              <li style="--color: #00bfff">SQL</li>
+              <li style="--color: #00bfff">EMR</li>
+              <li style="--color: #00bfff">Lambda</li>
+              <li style="--color: #00bfff">Jenkins</li>
+              <li style="--color: #00bfff">Go</li>
+              <li style="--color: #00bfff">Appmesh</li>
+              <li style="--color: #00bfff">Looker</li>
+              <li style="--color: #00bfff">Pytest</li>
             </ul>
             </div>
           </div>
@@ -389,7 +389,7 @@ a, a:hover {
 }
 
 aside {
-  background: #530080;
+  background: #001173;
   color: #ffffff;
   text-align: right;
   padding-right: 1em;
