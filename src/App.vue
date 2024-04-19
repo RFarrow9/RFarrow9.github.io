@@ -23,7 +23,7 @@
               <li style="--color: #00bfff">Serverless λ</li>
               <li style="--color: #00bfff">Git</li>
               <li style="--color: #00bfff">TypeScript</li>
-              <li style="--color: #00bfff">Javscript</li>
+              <li style="--color: #00bfff">Javascript</li>
               <li style="--color: #00bfff">Go</li>
               <li style="--color: #00bfff">Spark</li>
               <li style="--color: #00bfff">Github Actions</li>
