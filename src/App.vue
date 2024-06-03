@@ -104,13 +104,16 @@
         <main style="min-height: 380px;">
           <header><b> <a href="https://www.htk.co.uk/">HTK</a> </b> - Full Stack Data Engineer</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Developed <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/"
+            <li style="margin-bottom: 10px"> Engineered <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/"
               style="color: blue; text-decoration: underline;">
               Autopilot platform</a>, a machine learning product that ingests real-time horizon data
               and automatically generates insights, such as churn and anomaly detection.
             </li>
-            <li style="margin-bottom: 10px"> Designed and implemented a fully decoupled, well-documented, and
-              maintainable architecture using EMR, SFN, Lambda, ECS, Appmesh, Athena,
+            <li style="margin-bottom: 10px"> Led a small but cohesive team of developers, QA and data scientists in order
+              to implement the autopilot platform.
+            </li>
+            <li style="margin-bottom: 10px"> Architected the fully decoupled, well-documented, and
+              maintainable infrastructure using EMR, SFN, Lambda, ECS, Appmesh, Athena,
               Looker, Sagemaker, RDS.
             </li>
             <li style="margin-bottom: 10px"> Built a custom go based terraform provider for the looker BI tool in order to
