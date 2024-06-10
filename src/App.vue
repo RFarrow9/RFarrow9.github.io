@@ -70,8 +70,9 @@
               and <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
                  style="color: blue; text-decoration: underline;"> the machine that builds the machine</a>
             </li>
-            <li style="margin-bottom: 10px"> Contribute to sales efforts, leading the pitch to successfully secure the company's largest
-               project worth over £2 million over 2 years.
+            <li style="margin-bottom: 10px"> Built ingestion scripts running on AWS for Salesforce on AWS Glue for fully distributed
+              execution with slowly changing dimensions in order to load data into S3. Orchestrated with step functions and built 
+              on Terraform.
             </li>
             <li style="margin-bottom: 15px"> Developed a IAC framework using terraform for AWS account management including but not limited to VPC setups,
               VPN, IAM assume roles and permission designation, budgeting, alerting, budgeting & endpoint management to
