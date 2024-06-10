@@ -44,7 +44,7 @@
           <ul style="margin: 0 15px">
             <li style="margin-bottom: 10px"> Lead and manage an engineering team, overseeing day-to-day operations and
               responsibilities. Successfully hired & onboarded new team members, performance managed, and strive to not
-              do the easy thing as a leader, but the right thing, unafraid to make hard decisions to maintain a high-functioning team.
+              do the easy thing as a leader, but the right thing.
             </li>
             <li style="margin-bottom: 10px"> Oversee budgets for the engineering department, driving the transition from
               a loss-making unit to the leading revenue generator for the business. Led on adding structure to our
@@ -70,9 +70,8 @@
               and <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
                  style="color: blue; text-decoration: underline;"> the machine that builds the machine</a>
             </li>
-            <li style="margin-bottom: 10px"> Built ingestion scripts running on AWS for Salesforce on AWS Glue for fully distributed
-              execution with slowly changing dimensions in order to load data into S3. Orchestrated with step functions and built 
-              on Terraform.
+            <li style="margin-bottom: 10px"> Built ingestion scripts running on AWS Glue for Salesforce with fully distributed
+              execution and using slowly changing dimensions in order to load data into S3, orchestrated with step functions. 
             </li>
             <li style="margin-bottom: 15px"> Developed a IAC framework using terraform for AWS account management including but not limited to VPC setups,
               VPN, IAM assume roles and permission designation, budgeting, alerting, budgeting & endpoint management to
