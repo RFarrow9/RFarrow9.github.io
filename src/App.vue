@@ -13,7 +13,56 @@
       <div class="row">
         <aside>
           <div class="aside-content">
-          2022 Nov - Present
+          2024 Nov - Present
+          <div class="tech-list-container">
+            <ul class="tech-list squares">
+              <li style="--color: #00bfff">Java</li>
+              <li style="--color: #00bfff">Spring Boot</li>
+              <li style="--color: #00bfff">Apache Flink</li>
+              <li style="--color: #00bfff">Kafka</li>
+              <li style="--color: #00bfff">Elasticsearch</li>
+              <li style="--color: #00bfff">Kubernetes</li>
+              <li style="--color: #00bfff">Argo CD</li>
+              <li style="--color: #00bfff">Jenkins</li>
+              <li style="--color: #00bfff">AWS</li>
+              <li style="--color: #00bfff">Claude / LLMs</li>
+              <li style="--color: #00bfff">Git</li>
+            </ul>
+          </div>
+         </div>
+        </aside>
+        <main>
+          <header><b> <a href="https://www.visa.co.uk/">Visa</a> </b> - Senior Engineering Manager</header>
+          <ul style="margin: 0 15px">
+            <li style="margin-bottom: 10px"> Senior Engineering Manager within VXBS (Visa Cross-Border Solutions),
+              leading two teams: RTDP — the team making event-driven architecture happen across the platform — and
+              TRLM, who are rebuilding the core treasury system. Transitioned from data engineering leadership into
+              software engineering leadership and continuing to deliver at pace.
+            </li>
+            <li style="margin-bottom: 10px"> Founded and run the internal Claude Guild — a cross-team practice of
+              300+ engineers with monthly demo sessions topping 150 attendees — driving adoption of the latest from
+              Claude, lifting engineering productivity and embedding safe, effective LLM use across VXBS.
+            </li>
+            <li style="margin-bottom: 10px"> Led the team through our eventification / event-driven architecture pivot,
+              taking Apache Flink from zero to production as the streaming backbone for VXBS — re-architected an
+              external-facing API on top of Flink and Elasticsearch and cut p99 latency significantly, with further
+              rollout ongoing.
+            </li>
+            <li style="margin-bottom: 10px"> Operate within a regulated Java / Spring Boot stack under strict security
+              controls, delivering services to 5 to 7 nines of availability through fully automated Argo CD and
+              Jenkins pipelines.
+            </li>
+            <li style="margin-bottom: 15px"> Balance hands-on technical leadership with people management — setting
+              direction, unblocking engineers and owning outcomes, while staying close enough to the stack to make
+              credible technical and architectural decisions.
+            </li>
+          </ul>
+        </main>
+      </div>
+      <div class="row">
+        <aside>
+          <div class="aside-content">
+          2022 Nov - 2024 Nov
           <div class="tech-list-container">
             <ul class="tech-list squares">
               <li style="--color: #00bfff">AWS</li>
@@ -42,40 +91,25 @@
         <main>
           <header><b> <a href="https://profusion.com/">Profusion</a> </b> - Head of Engineering</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Lead and manage an engineering team, overseeing day-to-day operations and
-              responsibilities. Successfully hired & onboarded new team members, performance managed, and strive to not
-              do the easy thing as a leader, but the right thing.
+            <li style="margin-bottom: 10px"> Led and managed the engineering team end-to-end — hiring, onboarding,
+              performance managing and making the hard calls rather than the easy ones.
             </li>
-            <li style="margin-bottom: 10px"> Oversee budgets for the engineering department, driving the transition from
-              a loss-making unit to the leading revenue generator for the business. Led on adding structure to our
-              internal accounting process adding visibility and accountability, leading the business from loss making
-              to profitable.
+            <li style="margin-bottom: 10px"> Owned engineering budgets and accounting structure, driving the transition
+              from a loss-making unit to the leading revenue generator for the business.
             </li>
-            <li style="margin-bottom: 10px"> Developed and implemented a utilization model to identify and optimize
-            inefficiencies in the project pipeline, enhancing overall productivity. Upskilled project management to this
-            process, and now comfortably sit in the minimum 70% billable work zone for consultancy profitability.
+            <li style="margin-bottom: 10px"> Designed and rolled out a utilisation model to identify and fix pipeline
+              inefficiencies, upskilling project management on the process and sustaining the 70%+ billable zone needed
+              for consultancy profitability.
             </li>
-            <li style="margin-bottom: 10px"> Developed strategic plans for the team, aligning technologies, skill redundancies,
-              AWS partnership, and goals to drive personal and business growth. I hold my team and myself accountable for
-               their own development and growth.
+            <li style="margin-bottom: 10px"> Set strategic direction — technology choices, skills redundancy, AWS
+              partnership — while fostering a continuous-learning culture; communicated direction internally and
+              externally via blog posts such as
+              <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
+                 style="color: blue; text-decoration: underline;">the machine that builds the machine</a>.
             </li>
-            <li style="margin-bottom: 10px"> Foster a culture of continuous learning and improvement, providing knowledge frameworks,
-              challenging projects, and leading by example to encourage engineers to reach their full potential.
-            </li>
-            <li style="margin-bottom: 10px"> Communicate effectively both inside the organization to educate the wider
-              company about data engineering and software development, and their future direction, as well as outside the
-              company with blog posts like
-              <a href="https://medium.com/@rob-f/coding-tenacity-video-games-the-beauty-of-failure-f012adbfe71b"
-                 style="color: blue; text-decoration: underline;"> coding, tenacity, video games & the beauty of failure</a>
-              and <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
-                 style="color: blue; text-decoration: underline;"> the machine that builds the machine</a>
-            </li>
-            <li style="margin-bottom: 10px"> Built ingestion scripts running on AWS Glue for Salesforce with fully distributed
-              execution and using slowly changing dimensions in order to load data into S3, orchestrated with step functions. 
-            </li>
-            <li style="margin-bottom: 15px"> Developed a IAC framework using terraform for AWS account management including but not limited to VPC setups,
-              VPN, IAM assume roles and permission designation, budgeting, alerting, budgeting & endpoint management to
-              support a new framework for multiple clients in their own clouds
+            <li style="margin-bottom: 15px"> Built a reusable Terraform IAC framework for AWS account management —
+              VPC, VPN, IAM, budgeting, alerting and endpoint management — underpinning a new multi-client,
+              multi-account delivery model.
             </li>
           </ul>
         </main>
@@ -101,33 +135,19 @@
             </div>
           </div>
         </aside>
-        <main style="min-height: 380px;">
+        <main>
           <header><b> <a href="https://www.htk.co.uk/">HTK</a> </b> - Full Stack Data Engineer</header>
           <ul style="margin: 0 15px">
             <li style="margin-bottom: 10px"> Engineered <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/"
-              style="color: blue; text-decoration: underline;">
-              Autopilot platform</a>, a machine learning product that ingests real-time horizon data
-              and automatically generates insights, such as churn and anomaly detection.
+              style="color: blue; text-decoration: underline;">Autopilot</a>, a machine-learning product ingesting
+              real-time horizon data and automatically surfacing insights such as churn and anomaly detection.
             </li>
-            <li style="margin-bottom: 10px"> Led a small but cohesive team of developers, QA and data scientists in order
-              to implement the autopilot platform.
+            <li style="margin-bottom: 10px"> Led a small, cohesive team of developers, QA and data scientists to
+              deliver Autopilot to production.
             </li>
-            <li style="margin-bottom: 10px"> Architected the fully decoupled, well-documented, and
-              maintainable infrastructure using EMR, SFN, Lambda, ECS, Appmesh, Athena,
-              Looker, Sagemaker, RDS.
-            </li>
-            <li style="margin-bottom: 10px"> Built a custom go based terraform provider for the looker BI tool in order to
-              support fully automated CICD based deployments of Autopilot.
-            </li>
-            <li style="margin-bottom: 10px"> Employed MLOps practices for machine learning model deployment, including
-              API integration, automated training workflows, artifact generation, and detection of outdated models.
-            </li>
-            <li style="margin-bottom: 15px"> Established a CI/CD architecture for immediate failure detection in the
-              core codebase, utilizing Jenkins, BlueOcean, and Slack for notification handling.
-            </li>
-            <li style="margin-bottom: 15px"> Built a fully functioning data generator that could realistically model
-              consumer habits using the spark framework that scales to billions of rows of data for full
-              integration testing.
+            <li style="margin-bottom: 15px"> Architected the fully decoupled, well-documented infrastructure (EMR,
+              SFN, Lambda, ECS, Appmesh, Athena, Looker, SageMaker, RDS) and established the Jenkins-based CI/CD
+              architecture for immediate failure detection.
             </li>
           </ul>
         </main>
@@ -167,31 +187,18 @@
         </main>
       </div>
       <div class="row">
-        <aside>2015 July - 2016 October</aside>
-        <main>
-          <header><b> <a href="https://www.idbs.com/">IDBS</a> </b> - 3rd Line Support Engineer</header>
-          <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px">
-              Solved complex queries and issues for a pharmatech company, leading the scoreboard of tickets resolved
-              and developing frameworks for automation of common issue resolution, updating documentation and knowledge
-              portals, and becoming subject matter expert in IDBS use of relational databases.
-            </li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
         <aside><h2> </h2></aside>
       </div>
       <div class="row">
         <aside><h2>Projects</h2></aside>
       </div>
       <div class="row">
-        <aside>Project X</aside>
-        <main><p> An AI-powered system to perform live queries on a financial database, providing insights
-          into not only the data (e.g., profit & loss) but also the underlying reasons behind the figures.
-          Uses function-calling & APIs on the OpenAI ChatGPT stack. Created a custom framework to allow for a
-          process to map 'data abstractions' to models to allow for 'traversing of abstractions' in subjects.
-        </p></main>
+        <aside>Pension Overboard</aside>
+        <main><p> A top-down 3D pirate ship action game built in Godot 4.6 — a modern spiritual successor to
+          <i>Overboard!</i> (PS1, 1997). An ageing pirate fights through 11 themed "branch offices" of the Cosmic
+          Bank to recover their frozen pension; tone lands somewhere between Banjo-Tooie and The Good Place.
+          GDScript + shaders, GPU particle effects and procedural waves, wired into custom scene systems for
+          combat, enemy AI and boss encounters.</p></main>
       </div>
       <div class="row">
         <aside>Janus</aside>
@@ -201,21 +208,9 @@
       </div>
       <div class="row">
         <aside>Options Trading Bot</aside>
-        <main><p> Developed a Go-based trading bot that interacts with the options market and executes trades based on a
-          predefined strategy. Maps the tradestation HTTP based API into golang using net/http lib and leverages
-        goroutines for concurrent processing as well as mutexes for thread safety.</p></main>
-      </div>
-      <div class="row">
-        <aside>Automotive Data Platform</aside>
-        <main><p> Architected and led development of a polyrepo based secure AWS data platform for a large automotive client
-          to process and analyze data from Salesforce and other CRM systems to generate a single customer view and customer lifetime
-          value. </p></main>
-      </div>
-      <div class="row">
-        <aside>Azure Platform</aside>
-        <main><p> Architected and led delivery of an Azure data platform utilising azure functions and synapse, with extensive
-        security controls, IAC and adherance to best practices in order to inform internal business process and generate reporting
-        used by private equity firms to improve profitability.</p></main>
+        <main><p> Developed a Go-based trading bot that interacts with the options market and executes trades against
+          a predefined strategy — maps the TradeStation HTTP API in Go via net/http, using goroutines for concurrent
+          processing and mutexes for thread safety.</p></main>
       </div>
       <div class="row">
         <aside>Home Network</aside>
