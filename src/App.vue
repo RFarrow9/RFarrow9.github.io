@@ -1,6 +1,18 @@
 <template>
   <metainfo></metainfo>
-  <div class="sheet" style="display: flex; flex-direction: column">
+  <!-- Subtle interactive constellation; sits behind the sheet, hidden in print -->
+  <backdrop />
+  <!-- Screen-only controls; hidden in print / PDF render -->
+  <div class="toolbar">
+    <button class="tool-btn" type="button" @click="toggleTheme">
+      <icon :name="theme === 'dark' ? 'sun' : 'moon'" />
+      {{ theme === 'dark' ? 'Light' : 'Dark' }}
+    </button>
+    <a class="tool-btn" href="./cv.pdf" download="Robert-Farrow-CV.pdf">
+      <icon name="file-pdf" /> PDF
+    </a>
+  </div>
+  <div class="sheet" :class="'theme-' + theme" style="display: flex; flex-direction: column">
     <div class="page">
     <section class="row">
       <aside><h1>Robert Farrow</h1></aside>
@@ -10,145 +22,23 @@
       <div class="row">
         <aside><h2>Professional Experience</h2></aside>
       </div>
-      <div class="row">
+      <div class="row" v-for="role in page1Roles" :key="role.company">
         <aside>
           <div class="aside-content">
-          2024 Nov - Present
+          {{ role.period }}
           <div class="tech-list-container">
             <ul class="tech-list squares">
-              <li style="--color: #00bfff">Java</li>
-              <li style="--color: #00bfff">Spring Boot</li>
-              <li style="--color: #00bfff">Apache Flink</li>
-              <li style="--color: #00bfff">Kafka</li>
-              <li style="--color: #00bfff">Elasticsearch</li>
-              <li style="--color: #00bfff">Kubernetes</li>
-              <li style="--color: #00bfff">Argo CD</li>
-              <li style="--color: #00bfff">Jenkins</li>
-              <li style="--color: #00bfff">AWS</li>
-              <li style="--color: #00bfff">Claude / LLMs</li>
-              <li style="--color: #00bfff">Git</li>
+              <li v-for="t in role.tech" :key="t" style="--color: #f7b600" class="tech">{{ t }}</li>
             </ul>
           </div>
          </div>
         </aside>
         <main>
-          <header><b> <a href="https://www.visa.co.uk/">Visa</a> </b> - Senior Engineering Manager</header>
+          <header><b> <a :href="role.url">{{ role.company }}</a> </b> - {{ role.title }}</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Senior Engineering Manager within VXBS (Visa Cross-Border Solutions),
-              leading two teams: RTDP — the team making event-driven architecture happen across the platform — and
-              TRLM, who are rebuilding the core treasury system. Transitioned from data engineering leadership into
-              software engineering leadership and continuing to deliver at pace.
-            </li>
-            <li style="margin-bottom: 10px"> Founded and run the internal Claude Guild — a cross-team practice of
-              300+ engineers with monthly demo sessions topping 150 attendees — driving adoption of the latest from
-              Claude, lifting engineering productivity and embedding safe, effective LLM use across VXBS.
-            </li>
-            <li style="margin-bottom: 10px"> Led the team through our eventification / event-driven architecture pivot,
-              taking Apache Flink from zero to production as the streaming backbone for VXBS — re-architected an
-              external-facing API on top of Flink and Elasticsearch and cut p99 latency significantly, with further
-              rollout ongoing.
-            </li>
-            <li style="margin-bottom: 10px"> Operate within a regulated Java / Spring Boot stack under strict security
-              controls, delivering services to 5 to 7 nines of availability through fully automated Argo CD and
-              Jenkins pipelines.
-            </li>
-            <li style="margin-bottom: 15px"> Balance hands-on technical leadership with people management — setting
-              direction, unblocking engineers and owning outcomes, while staying close enough to the stack to make
-              credible technical and architectural decisions.
-            </li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
-        <aside>
-          <div class="aside-content">
-          2022 Nov - 2024 Nov
-          <div class="tech-list-container">
-            <ul class="tech-list squares">
-              <li style="--color: #00bfff">AWS</li>
-              <li style="--color: #00bfff">Terraform</li>
-              <li style="--color: #00bfff">Python</li>
-              <li style="--color: #00bfff">SQL</li>
-              <li style="--color: #00bfff">Serverless λ</li>
-              <li style="--color: #00bfff">Git</li>
-              <li style="--color: #00bfff">TypeScript</li>
-              <li style="--color: #00bfff">Javascript</li>
-              <li style="--color: #00bfff">Go</li>
-              <li style="--color: #00bfff">Spark</li>
-              <li style="--color: #00bfff">Github Actions</li>
-              <li style="--color: #00bfff">Docker</li>
-              <li style="--color: #00bfff">dbt</li>
-              <li style="--color: #00bfff">Snowflake</li>
-              <li style="--color: #00bfff">APIs</li>
-              <li style="--color: #00bfff">Linux</li>
-              <li style="--color: #00bfff">LLMs</li>
-              <li style="--color: #00bfff">Azure</li>
-              <li style="--color: #00bfff">GCP</li>
-            </ul>
-          </div>
-         </div>
-        </aside>
-        <main>
-          <header><b> <a href="https://profusion.com/">Profusion</a> </b> - Head of Engineering</header>
-          <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Led and managed the engineering team end-to-end — hiring, onboarding,
-              performance managing and making the hard calls rather than the easy ones.
-            </li>
-            <li style="margin-bottom: 10px"> Owned engineering budgets and accounting structure, driving the transition
-              from a loss-making unit to the leading revenue generator for the business.
-            </li>
-            <li style="margin-bottom: 10px"> Designed and rolled out a utilisation model to identify and fix pipeline
-              inefficiencies, upskilling project management on the process and sustaining the 70%+ billable zone needed
-              for consultancy profitability.
-            </li>
-            <li style="margin-bottom: 10px"> Set strategic direction — technology choices, skills redundancy, AWS
-              partnership — while fostering a continuous-learning culture; communicated direction internally and
-              externally via blog posts such as
-              <a href="https://medium.com/@rob-f/the-machine-that-builds-the-machine-8f768fcb1c0d"
-                 style="color: blue; text-decoration: underline;">the machine that builds the machine</a>.
-            </li>
-            <li style="margin-bottom: 15px"> Built a reusable Terraform IAC framework for AWS account management —
-              VPC, VPN, IAM, budgeting, alerting and endpoint management — underpinning a new multi-client,
-              multi-account delivery model.
-            </li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
-        <aside>
-          <div class="aside-content">
-          2019 Aug - 2022 Nov
-            <div class="tech-list-container">
-            <ul class="tech-list squares">
-              <li style="--color: #00bfff">AWS</li>
-              <li style="--color: #00bfff">Terraform</li>
-              <li style="--color: #00bfff">Python</li>
-              <li style="--color: #00bfff">SQL</li>
-              <li style="--color: #00bfff">EMR</li>
-              <li style="--color: #00bfff">Lambda</li>
-              <li style="--color: #00bfff">Jenkins</li>
-              <li style="--color: #00bfff">Go</li>
-              <li style="--color: #00bfff">Appmesh</li>
-              <li style="--color: #00bfff">Looker</li>
-              <li style="--color: #00bfff">Pytest</li>
-            </ul>
-            </div>
-          </div>
-        </aside>
-        <main>
-          <header><b> <a href="https://www.htk.co.uk/">HTK</a> </b> - Full Stack Data Engineer</header>
-          <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Engineered <a href="https://www.htk.co.uk/solutions/real-time-customer-insights/"
-              style="color: blue; text-decoration: underline;">Autopilot</a>, a machine-learning product ingesting
-              real-time horizon data and automatically surfacing insights such as churn and anomaly detection.
-            </li>
-            <li style="margin-bottom: 10px"> Led a small, cohesive team of developers, QA and data scientists to
-              deliver Autopilot to production.
-            </li>
-            <li style="margin-bottom: 15px"> Architected the fully decoupled, well-documented infrastructure (EMR,
-              SFN, Lambda, ECS, Appmesh, Athena, Looker, SageMaker, RDS) and established the Jenkins-based CI/CD
-              architecture for immediate failure detection.
-            </li>
+            <li v-for="(bullet, i) in role.bullets" :key="i"
+                :style="{ marginBottom: i === role.bullets.length - 1 ? '15px' : '10px' }"
+                v-html="bullet"></li>
           </ul>
         </main>
       </div>
@@ -159,30 +49,13 @@
       <div class="row" style="min-height: 25px">
         <aside></aside>
       </div>
-      <div class="row">
-        <aside>2018 Sep - 2019 Aug</aside>
+      <div class="row" v-for="role in page2Roles" :key="role.company">
+        <aside>{{ role.period }}</aside>
         <main>
-          <header ><b> <a href="https://www.marsh.com/uk/home.html">Marsh</a> </b> - Data Developer</header>          <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Developed automated consolidation of insurance and reinsurance across multiple platforms
-              using Python, Qlikview & SQL. Solved long running joining systems on broker issue with levenshtein based
-              algorithms which would 'first solve', and be validated by human response in a decentralised repository
-              accessed by the user favourite - excel.
-            </li>
-          </ul>
-        </main>
-      </div>
-      <div class="row">
-        <aside>2016 October - 2018 September</aside>
-        <main>
-          <header><b> <a href="https://www.nsft.nhs.uk/"> NHS Norfolk & Suffolk Foundation Trust </a> </b> - Business
-            Intelligence Programmer
-          </header>
+          <header><b> <a :href="role.url">{{ role.company }}</a> </b> - {{ role.title }}</header>
           <ul style="margin: 0 15px">
-            <li style="margin-bottom: 10px"> Developed the 'Patient Journey' application on my own initiative, a cost effective centralised
-              VBA (visual basic) based application that would allow for excel access to a central datawarehouse that was
-              used to align reporting with care practitioners. Allowing for a trust in special measures to address critiques
-              on data availability and robustness.
-            </li>
+            <li v-for="(bullet, i) in role.bullets" :key="i"
+                style="margin-bottom: 10px" v-html="bullet"></li>
           </ul>
         </main>
       </div>
@@ -192,49 +65,19 @@
       <div class="row">
         <aside><h2>Projects</h2></aside>
       </div>
-      <div class="row">
-        <aside>Pension Overboard</aside>
-        <main><p> A top-down 3D pirate ship action game built in Godot 4.6 — a modern spiritual successor to
-          <i>Overboard!</i> (PS1, 1997). An ageing pirate fights through 11 themed "branch offices" of the Cosmic
-          Bank to recover their frozen pension; tone lands somewhere between Banjo-Tooie and The Good Place.
-          GDScript + shaders, GPU particle effects and procedural waves, wired into custom scene systems for
-          combat, enemy AI and boss encounters.</p></main>
-      </div>
-      <div class="row">
-        <aside>Janus</aside>
-        <main><p> Architected and led implementation of a scalable AWS data platform that ingests data from 20+ sources and
-          constructs a unified semantic layer for use across an entire government department using Datalakehouse technologies
-          on an ELT based ingestion. Uses ECR, Terraform, Docker, Python & Pandas, Athena, SQL & Github Actions </p></main>
-      </div>
-      <div class="row">
-        <aside>Options Trading Bot</aside>
-        <main><p> Developed a Go-based trading bot that interacts with the options market and executes trades against
-          a predefined strategy — maps the TradeStation HTTP API in Go via net/http, using goroutines for concurrent
-          processing and mutexes for thread safety.</p></main>
-      </div>
-      <div class="row">
-        <aside>Home Network</aside>
-        <main><p> Designed and implemented a custom home network with features such as dynamic ad removal using Pi-hole
-          , Wi-Fi meshing with unifi, and custom alerting for a battery/solar panel/ASHP setup to reduce costs & optimise
-          usage via thermal energy storage. </p></main>
+      <div class="row" v-for="project in projects" :key="project.name">
+        <aside>{{ project.name }}</aside>
+        <main><p v-html="project.description"></p></main>
       </div>
     </section>
     <section>
       <div class="row">
         <aside><h2>Education</h2></aside>
       </div>
-      <div class="row">
-        <aside>2012 - 2015</aside>
+      <div class="row" v-for="course in education" :key="course.institution">
+        <aside>{{ course.period }}</aside>
         <main>
-          <header><b><a href="https://www.ucl.ac.uk/">University College London</a></b> - BSc Chemistry</header>
-        </main>
-      </div>
-      <div class="row">
-        <aside>2010 - 2012</aside>
-        <main>
-          <header><b><a href="https://www.hsdc.ac.uk/study-with-us/alton-campus/">Alton College</a></b> - A Levels:
-            Mathematics (A), Chemistry (A), Biology (A*)
-          </header>
+          <header><b><a :href="course.url">{{ course.institution }}</a></b> - {{ course.detail }}</header>
         </main>
       </div>
     </section>
@@ -242,28 +85,13 @@
       <div class="row">
         <aside><h2>Personal Interests</h2></aside>
       </div>
-      <div class="row">
+      <div class="row" v-for="(interest, i) in interests" :key="i">
         <aside></aside>
         <main>
-          <header> Built my own eco-friendly house at <a href="https://www.gravenhill.co.uk/"
-          style="color: blue; text-decoration: underline;">Graven Hill</a>, aimed to build a fully self-sufficient home
-            that minimises carbon output and running costs. Project managed and built myself, after a long slog - now 
-            very pleased with the result!
-          </header>
+          <header v-html="interest.text"></header>
+          <img v-if="interest.image" class="interest-img" :src="interest.image" alt="Pension Overboard screenshot" />
         </main>
       </div>
-      <div class="row">
-        <aside></aside>
-        <main>
-          <header> Avid amateur cyclist with plans to complete the 'North Coast 500' in the upcoming year.</header>
-        </main>
-      </div>
-      <div class="row">
-      <aside></aside>
-      <main>
-        <header> When I'm not coding or doing DIY, I can often be found in the kitchen. Big fan of cooking and baking.</header>
-      </main>
-    </div>
     </section>
       <section class="expandable">
         <div class="row filler">
@@ -276,14 +104,53 @@
 <script>
 import { useMeta } from 'vue-meta'
 import Links from './components/Links.vue'
+import Icon from './components/Icon.vue'
+import Backdrop from './components/Backdrop.vue'
+import { experience, projects, education, interests } from './data/cv.js'
 
 export default {
-  components: { Links }, setup() {
-    useMeta({ title: 'Robert Farrow - Curriculum Vitae'})
-  }, mounted() {
+  components: { Links, Icon, Backdrop },
+  setup() {
+    useMeta({ title: 'Robert Farrow - Curriculum Vitae' })
+  },
+  data() {
+    return { experience, projects, education, interests, theme: 'dark' }
+  },
+  computed: {
+    page1Roles() {
+      return this.experience.filter((role) => role.page === 1)
+    },
+    page2Roles() {
+      return this.experience.filter((role) => role.page === 2)
+    }
+  },
+  watch: {
+    theme(value) {
+      document.body.classList.toggle('dark-bg', value === 'dark')
+      try {
+        localStorage.setItem('cv-theme', value)
+      } catch (e) {
+        /* localStorage unavailable (e.g. headless PDF render) — ignore */
+      }
+    }
+  },
+  methods: {
+    toggleTheme() {
+      this.theme = this.theme === 'dark' ? 'light' : 'dark'
+    }
+  },
+  mounted() {
+    try {
+      const saved = localStorage.getItem('cv-theme')
+      if (saved) this.theme = saved
+    } catch (e) {
+      /* ignore */
+    }
+    document.body.classList.toggle('dark-bg', this.theme === 'dark')
     this.$nextTick(() => document.body.dispatchEvent(new Event('view-ready')))
   }
-} </script>
+}
+</script>
 <style lang="scss"> $primary: #d63af2;
 @import 'normalize.css/normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -387,7 +254,7 @@ a, a:hover {
 }
 
 aside {
-  background: #001173;
+  background: #1a1f71;
   color: #ffffff;
   text-align: right;
   padding-right: 1em;
@@ -492,4 +359,110 @@ h1 {
 h2 {
    padding-bottom: 10px;
  }
+
+/* ===== Interactive enhancements (screen only; print/PDF stays static) ===== */
+
+.toolbar {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+  z-index: 20;
+}
+
+.tool-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1a1f71;
+  color: #fff;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.tool-btn:hover {
+  transform: translateY(-1px);
+  background: #2b3190;
+}
+
+/* Tech chips — hover flourish only */
+.tech-list li.tech {
+  transition: transform 0.12s ease;
+}
+
+.tech-list li.tech:hover {
+  transform: translateX(3px);
+}
+
+.tech-list li.tech:hover::before {
+  box-shadow: 0 0 6px var(--color);
+}
+
+/* Screenshot in personal interests */
+.interest-img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 6px;
+  margin-top: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes sheetIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media screen {
+  body.dark-bg {
+    background: #0c0c10 !important;
+  }
+
+  .sheet {
+    animation: sheetIn 1.2s ease both;
+  }
+
+  .sheet.theme-dark {
+    background: #15151b;
+    color: #e8e8ea;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+  }
+
+  .sheet.theme-dark main {
+    color: #e8e8ea;
+  }
+
+  .sheet.theme-dark main a {
+    color: #8fa6ff !important;
+  }
+
+  .sheet.theme-dark .tech-list li {
+    color: #e8e8ea;
+  }
+}
+
+@media print {
+  .toolbar {
+    display: none !important;
+  }
+
+  * {
+    animation: none !important;
+  }
+}
 </style>
