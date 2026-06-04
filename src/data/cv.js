@@ -165,8 +165,8 @@ export const interests = [
   },
   {
     text: `Outside of work I build video games. My current project is <b>Pension Overboard</b> — a top-down 3D
-     pirate action game in Godot 4.6, a modern homage to the PS1 cult classic <i>Overboard!</i> (1997).`
-    // Add a screenshot at public/pension-overboard.png then restore: image: '/pension-overboard.png'
+     pirate action game in Godot 4.6, a modern homage to the PS1 cult classic <i>Overboard!</i> (1997).`,
+    image: '/pension-overboard.png'
   },
   {
     text: `When I'm not coding or doing DIY, I can often be found in the kitchen. Big fan of cooking and baking.`
