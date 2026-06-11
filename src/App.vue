@@ -89,7 +89,12 @@
         <aside></aside>
         <main>
           <header v-html="interest.text"></header>
-          <img v-if="interest.image" class="interest-img" :src="interest.image" alt="Pension Overboard screenshot" />
+          <video v-if="interest.video" class="interest-media" :poster="interest.image"
+                 autoplay loop muted playsinline preload="metadata">
+            <source :src="interest.video" type="video/mp4" />
+          </video>
+          <img v-else-if="interest.image" class="interest-media" :src="interest.image" alt="Pension Overboard screenshot" />
+          <p v-if="interest.caption" class="interest-caption" v-html="interest.caption"></p>
         </main>
       </div>
     </section>
@@ -407,8 +412,16 @@ h2 {
   box-shadow: 0 0 6px var(--color);
 }
 
-/* Screenshot in personal interests */
-.interest-img {
+/* Screenshot / clip in personal interests */
+.interest-caption {
+  max-width: 320px;
+  margin-top: 6px;
+  font-size: 0.9em;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.interest-media {
   display: block;
   width: 100%;
   max-width: 320px;
