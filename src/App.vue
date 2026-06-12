@@ -94,6 +94,9 @@
           </a>
           <img v-else-if="interest.image" class="interest-media" :src="interest.image" alt="Pension Overboard screenshot" />
           <p v-if="interest.caption" class="interest-caption" v-html="interest.caption"></p>
+          <a v-if="interest.link && interest.linkLabel" class="game-btn" :href="interest.link" target="_blank">
+            {{ interest.linkLabel }}
+          </a>
         </main>
       </div>
     </section>
@@ -157,7 +160,7 @@ export default {
 </script>
 <style lang="scss"> $primary: #d63af2;
 @import 'normalize.css/normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pirata+One&display=swap');
 @import 'paper-css/paper.css';
 
 *, *::after, *::before {
@@ -409,6 +412,29 @@ h2 {
 
 .tech-list li.tech:hover::before {
   box-shadow: 0 0 6px var(--color);
+}
+
+/* Pension Overboard button — themed to the game, not the CV */
+.game-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 22px;
+  font-family: 'Pirata One', cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+  color: #ecd9a8 !important;
+  background: linear-gradient(135deg, #122638, #0a1420);
+  border: 2px solid #ffd66a;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(10, 20, 32, 0.4);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.game-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(10, 20, 32, 0.55);
+  color: #ffd66a !important;
 }
 
 /* Screenshot / clip in personal interests */

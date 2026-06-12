@@ -168,9 +168,9 @@ export const interests = [
      pirate action game in Godot 4.6, a modern homage to the PS1 cult classic <i>Overboard!</i> (1997).`,
     image: '/pension-overboard.jpg',
     link: 'https://pension-overboard.rob-farrow.me.uk',
-    caption: `The diegetic main menu — built with the game's own mechanics. Footage, the full pitch and
-     more at <a href="https://pension-overboard.rob-farrow.me.uk"
-     style="color: #1a1f71; text-decoration: underline;">pension-overboard.rob-farrow.me.uk</a>.`
+    linkLabel: '⚓ Set sail — explore the game',
+    caption: `The diegetic main menu — built with the game's own mechanics: procedural water, GPU
+     particles and the full scene systems running live behind the title.`
   },
   {
     text: `When I'm not coding or doing DIY, I can often be found in the kitchen. Big fan of cooking and baking.`
