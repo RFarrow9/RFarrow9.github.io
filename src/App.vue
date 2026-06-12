@@ -89,10 +89,9 @@
         <aside></aside>
         <main>
           <header v-html="interest.text"></header>
-          <video v-if="interest.video" class="interest-media" :poster="interest.image"
-                 autoplay loop muted playsinline preload="metadata">
-            <source :src="interest.video" type="video/mp4" />
-          </video>
+          <a v-if="interest.image && interest.link" :href="interest.link" target="_blank">
+            <img class="interest-media" :src="interest.image" alt="Pension Overboard — the diegetic main menu" />
+          </a>
           <img v-else-if="interest.image" class="interest-media" :src="interest.image" alt="Pension Overboard screenshot" />
           <p v-if="interest.caption" class="interest-caption" v-html="interest.caption"></p>
         </main>
