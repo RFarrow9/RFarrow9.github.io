@@ -166,11 +166,8 @@ export const interests = [
   {
     text: `Outside of work I build video games. My current project is <b>Pension Overboard</b> — a top-down 3D
      pirate action game in Godot 4.6, a modern homage to the PS1 cult classic <i>Overboard!</i> (1997).`,
-    image: '/pension-overboard.jpg',
     link: 'https://pension-overboard.rob-farrow.me.uk',
-    linkLabel: '⚓ Set sail — explore the game',
-    caption: `The diegetic main menu — built with the game's own mechanics: procedural water, GPU
-     particles and the full scene systems running live behind the title.`
+    linkLabel: '⚓ Set sail — explore the game'
   },
   {
     text: `When I'm not coding or doing DIY, I can often be found in the kitchen. Big fan of cooking and baking.`
