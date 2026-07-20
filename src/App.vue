@@ -90,9 +90,9 @@
         <main>
           <header v-html="interest.text"></header>
           <a v-if="interest.image && interest.link" :href="interest.link" target="_blank">
-            <img class="interest-media" :src="interest.image" alt="Pension Overboard — the diegetic main menu" />
+            <img class="interest-media" :src="interest.image" alt="Bounty Overboard — the diegetic main menu" />
           </a>
-          <img v-else-if="interest.image" class="interest-media" :src="interest.image" alt="Pension Overboard screenshot" />
+          <img v-else-if="interest.image" class="interest-media" :src="interest.image" alt="Bounty Overboard screenshot" />
           <p v-if="interest.caption" class="interest-caption" v-html="interest.caption"></p>
           <a v-if="interest.link && interest.linkLabel" class="game-btn" :href="interest.link" target="_blank">
             {{ interest.linkLabel }}
@@ -414,7 +414,7 @@ h2 {
   box-shadow: 0 0 6px var(--color);
 }
 
-/* Pension Overboard button — themed to the game, not the CV */
+/* Bounty Overboard button — themed to the game, not the CV */
 .game-btn {
   display: inline-block;
   margin-top: 10px;

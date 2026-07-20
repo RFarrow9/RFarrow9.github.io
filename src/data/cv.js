@@ -109,7 +109,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Pension Overboard',
+    name: 'Bounty Overboard',
     description: `A top-down 3D pirate ship action game built in Godot 4.6 — a modern spiritual successor to
       <i>Overboard!</i> (PS1, 1997). An ageing pirate fights through 11 themed "branch offices" of the Cosmic
       Bank to recover their frozen pension; tone lands somewhere between Banjo-Tooie and The Good Place.
@@ -155,7 +155,7 @@ export const education = [
   }
 ]
 
-// Set `image` to a path under /public (e.g. '/pension-overboard.png') to show a screenshot.
+// Set `image` to a path under /public (e.g. '/bounty-overboard.png') to show a screenshot.
 export const interests = [
   {
     text: `Built my own eco-friendly house at <a href="https://www.gravenhill.co.uk/"
@@ -164,9 +164,9 @@ export const interests = [
      very pleased with the result!`
   },
   {
-    text: `Outside of work I build video games. My current project is <b>Pension Overboard</b> — a top-down 3D
+    text: `Outside of work I build video games. My current project is <b>Bounty Overboard</b> — a top-down 3D
      pirate action game in Godot 4.6, a modern homage to the PS1 cult classic <i>Overboard!</i> (1997).`,
-    link: 'https://pension-overboard.rob-farrow.me.uk',
+    link: 'https://bounty-overboard.com',
     linkLabel: '⚓ Set sail — explore the game'
   },
   {
